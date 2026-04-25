@@ -248,7 +248,6 @@
 
 - type: reaction
   id: Ambuzol
-  maxTemp: 400
   reactants:
     Aluite:
       amount: 1
