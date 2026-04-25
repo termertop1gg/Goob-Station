@@ -248,7 +248,7 @@
 
 - type: reaction
   id: Ambuzol
-  maxTemp: 360
+  maxTemp: 400
   reactants:
     Aluite:
       amount: 1
@@ -257,11 +257,11 @@
     Calomel:
       amount: 2
   products:
-    Ambuzol: 2
+    Ambuzol: 3
 
 - type: reaction
   id: AmbuzolAshDecomposition
-  minTemp: 360
+  minTemp: 400
   reactants:
     Ambuzol:
       amount: 1
