@@ -248,15 +248,25 @@
 
 - type: reaction
   id: Ambuzol
+  maxTemp: 360
   reactants:
-    Dylovene:
-      amount: 1
-    Ammonia:
+    Aluite:
       amount: 1
     ZombieBlood:
+      amount: 3
+    Calomel:
       amount: 2
   products:
-    Ambuzol: 4
+    Ambuzol: 2
+
+- type: reaction
+  id: AmbuzolAshDecomposition
+  minTemp: 360
+  reactants:
+    Ambuzol:
+      amount: 1
+  products:
+    Ash: 1
 
 - type: reaction
   id: AmbuzolPlus
