@@ -254,10 +254,12 @@
       amount: 1
     ZombieBlood:
       amount: 3
+    Blood:
+      amount: 3
     Calomel:
       amount: 2
   products:
-    Ambuzol: 3
+    Ambuzol: 4
 
 - type: reaction
   id: AmbuzolAshDecomposition
