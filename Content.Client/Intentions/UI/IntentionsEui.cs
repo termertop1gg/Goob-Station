@@ -350,6 +350,9 @@ public sealed class IntentionsWindow : DefaultWindow
         _primaryList.RemoveAllChildren();
         _secondaryList.RemoveAllChildren();
         _adminList.RemoveAllChildren();
+        _primaryList.InvalidateMeasure();
+        _secondaryList.InvalidateMeasure();
+        _adminList.InvalidateMeasure();
         _cardControls.Clear();
         _adminSection.Visible = state.Mode == IntentionsEuiMode.Admin;
 
@@ -387,6 +390,16 @@ public sealed class IntentionsWindow : DefaultWindow
             SetEmptyDetail();
 
         UpdateSelection();
+
+        // Cards were just rebuilt — force a fresh layout pass so RichTextLabel
+        // measurements settle this frame. Without this, subsequent re-opens of
+        // the EUI render the first card oversized and push others off-screen
+        // until the user nudges the window.
+        _primaryList.InvalidateMeasure();
+        _secondaryList.InvalidateMeasure();
+        _adminList.InvalidateMeasure();
+        InvalidateMeasure();
+        InvalidateArrange();
     }
 
     /// <summary>
