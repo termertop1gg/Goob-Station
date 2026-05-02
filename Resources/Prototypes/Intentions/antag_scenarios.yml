@@ -1,0 +1,724 @@
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo01
+  name: "Antag Solo 01"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo01Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-solo-01-склонить-к-сотрудничеству
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo02
+  name: "Antag Solo 02"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo02Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-solo-02-вбросить-дезинформацию
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo03
+  name: "Antag Solo 03"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: antagRole
+        operator: "contains"
+        value: "Traitor"
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-solo-03-подготовить-предательство
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo04
+  name: "Antag Solo 04"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo04Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-solo-04-копировать-чужой-голос
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo05
+  name: "Antag Solo 05"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo05Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-solo-05-создать-опасную-зависимость
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo06
+  name: "Antag Solo 06"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: antagObjectiveType
+        operator: "contains"
+        value: "EscapeShuttleObjective"
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo07
+  name: "Antag Solo 07"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo07Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo08
+  name: "Antag Solo 08"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo08Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo09
+  name: "Antag Solo 09"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: antagRole
+        operator: "contains"
+        value: "Wizard"
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagSolo10
+  name: "Antag Solo 10"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagSolo10Owner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo01
+  name: "Antag Duo 01"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo01Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-01-обработчик-и-цель
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo01Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-01-поддаться-обработке
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo02
+  name: "Antag Duo 02"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo02Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-02-агент-и-наблюдатель
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo02Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-02-тихо-наблюдать-за-целью
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo03
+  name: "Antag Duo 03"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: antagRole
+        operator: "contains"
+        value: "Traitor"
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-03-инсайдер-и-вербовщик
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo03Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-03-попробовать-завербовать
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo04
+  name: "Antag Duo 04"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo04Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-04-приманка-и-удар
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo04Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-04-подготовить-решающий-удар
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo05
+  name: "Antag Duo 05"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo05Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-05-подделать-голос-вдвоём
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo05Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: antag-duo-05-поддержать-ложный-голос
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo06
+  name: "Antag Duo 06"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo06Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo06Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: antagObjectiveType
+        operator: "contains"
+        value: "BaseSocialObjective"
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo07
+  name: "Antag Duo 07"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo07Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo07Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo08
+  name: "Antag Duo 08"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo08Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo08Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo09
+  name: "Antag Duo 09"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo09Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo09Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: antagRole
+        operator: "contains"
+        value: "Changeling"
+
+- type: scenarioTemplate
+  id: IntentionsExampleAntagDuo10
+  name: "Antag Duo 10"
+  category: antag
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleAntagDuo10Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleAntagDuo10Partner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5

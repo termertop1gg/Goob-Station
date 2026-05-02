@@ -224,6 +224,39 @@ public sealed class StationJobsTest
     }
 
     [Test]
+    public async Task PlayerHoldsJobOnAnyStationTracksOccupiedSlots()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+
+        var prototypeManager = server.ResolveDependency<IPrototypeManager>();
+        var fooStationProto = prototypeManager.Index<GameMapPrototype>(StationMapId);
+        var assistantJob = new ProtoId<JobPrototype>("TAssistant");
+        var clownJob = new ProtoId<JobPrototype>("TClown");
+        var entSysMan = server.ResolveDependency<IEntityManager>().EntitySysManager;
+        var stationJobs = entSysMan.GetEntitySystem<StationJobsSystem>();
+        var stationSystem = entSysMan.GetEntitySystem<StationSystem>();
+
+        var station = EntityUid.Invalid;
+        var userId = new NetUserId(Guid.NewGuid());
+        await server.WaitPost(() =>
+        {
+            station = stationSystem.InitializeNewStation(fooStationProto.Stations["Station"], null, "Foo Station");
+        });
+
+        await server.WaitRunTicks(1);
+
+        await server.WaitAssertion(() =>
+        {
+            Assert.That(stationJobs.PlayerHoldsJobOnAnyStation(userId, assistantJob), Is.False);
+            Assert.That(stationJobs.TryAssignJob(station, prototypeManager.Index(assistantJob), userId), Is.True);
+            Assert.That(stationJobs.PlayerHoldsJobOnAnyStation(userId, assistantJob), Is.True);
+            Assert.That(stationJobs.PlayerHoldsJobOnAnyStation(userId, clownJob), Is.False);
+        });
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
     public async Task InvalidRoundstartJobsTest()
     {
         await using var pair = await PoolManager.GetServerClient();

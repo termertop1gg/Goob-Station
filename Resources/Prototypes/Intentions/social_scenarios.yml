@@ -1,0 +1,724 @@
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo01
+  name: "Social Solo 01"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo01Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-solo-01-собрать-мини-встречу
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo02
+  name: "Social Solo 02"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo02Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-solo-02-провести-викторину
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo03
+  name: "Social Solo 03"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Civilian"
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-solo-03-запустить-петицию
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo04
+  name: "Social Solo 04"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo04Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-solo-04-устроить-вечер-историй
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo05
+  name: "Social Solo 05"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo05Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-solo-05-позвать-на-соседский-чай
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo06
+  name: "Social Solo 06"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "Bartender"
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo07
+  name: "Social Solo 07"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo07Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo08
+  name: "Social Solo 08"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo08Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo09
+  name: "Social Solo 09"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: species
+        operator: "equals"
+        value: "Human"
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialSolo10
+  name: "Social Solo 10"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialSolo10Owner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo01
+  name: "Social Duo 01"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo01Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-01-познакомиться-с-незнакомцем
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo01Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-01-поддержать-знакомство
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo02
+  name: "Social Duo 02"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo02Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-02-свести-два-отдела
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo02Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-02-представить-свой-отдел
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo03
+  name: "Social Duo 03"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo03Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-03-собрать-короткое-интервью
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo03Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Civilian"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-03-дать-короткое-интервью
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo04
+  name: "Social Duo 04"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo04Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-04-раздать-приглашения-вдвоём
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo04Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-04-помочь-с-приглашениями
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo05
+  name: "Social Duo 05"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo05Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-05-подготовить-общий-тост
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo05Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: social-duo-05-поддержать-общий-тост
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo06
+  name: "Social Duo 06"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "Reporter"
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo06Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo07
+  name: "Social Duo 07"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo07Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo07Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo08
+  name: "Social Duo 08"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo08Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo08Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo09
+  name: "Social Duo 09"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo09Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo09Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: species
+        operator: "equals"
+        value: "Moth"
+
+- type: scenarioTemplate
+  id: IntentionsExampleSocialDuo10
+  name: "Social Duo 10"
+  category: social
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSocialDuo10Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSocialDuo10Partner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5

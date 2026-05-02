@@ -1,0 +1,361 @@
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo01Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-01-owner-name
+  summaryLoc: intentions-example-social-solo-01-owner-summary
+  descriptionLoc: intentions-example-social-solo-01-owner-description
+  oocInfoLoc: intentions-example-social-solo-01-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-01-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo02Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-02-owner-name
+  summaryLoc: intentions-example-social-solo-02-owner-summary
+  descriptionLoc: intentions-example-social-solo-02-owner-description
+  oocInfoLoc: intentions-example-social-solo-02-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-02-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo03Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-03-owner-name
+  summaryLoc: intentions-example-social-solo-03-owner-summary
+  descriptionLoc: intentions-example-social-solo-03-owner-description
+  oocInfoLoc: intentions-example-social-solo-03-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-03-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo04Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-04-owner-name
+  summaryLoc: intentions-example-social-solo-04-owner-summary
+  descriptionLoc: intentions-example-social-solo-04-owner-description
+  oocInfoLoc: intentions-example-social-solo-04-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-04-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo05Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-05-owner-name
+  summaryLoc: intentions-example-social-solo-05-owner-summary
+  descriptionLoc: intentions-example-social-solo-05-owner-description
+  oocInfoLoc: intentions-example-social-solo-05-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-05-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo06Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-06-owner-name
+  summaryLoc: intentions-example-social-solo-06-owner-summary
+  descriptionLoc: intentions-example-social-solo-06-owner-description
+  oocInfoLoc: intentions-example-social-solo-06-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-06-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo07Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-07-owner-name
+  summaryLoc: intentions-example-social-solo-07-owner-summary
+  descriptionLoc: intentions-example-social-solo-07-owner-description
+  oocInfoLoc: intentions-example-social-solo-07-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-07-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo08Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-08-owner-name
+  summaryLoc: intentions-example-social-solo-08-owner-summary
+  descriptionLoc: intentions-example-social-solo-08-owner-description
+  oocInfoLoc: intentions-example-social-solo-08-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-08-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo09Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-09-owner-name
+  summaryLoc: intentions-example-social-solo-09-owner-summary
+  descriptionLoc: intentions-example-social-solo-09-owner-description
+  oocInfoLoc: intentions-example-social-solo-09-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-09-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialSolo10Owner
+  kind: primary
+  nameLoc: intentions-example-social-solo-10-owner-name
+  summaryLoc: intentions-example-social-solo-10-owner-summary
+  descriptionLoc: intentions-example-social-solo-10-owner-description
+  oocInfoLoc: intentions-example-social-solo-10-owner-ooc
+  copyableTextLoc: intentions-example-social-solo-10-owner-copy
+  defaultVisibility: visible
+  hiddenLabelLoc: intentions-example-social-solo-10-owner-hidden-label
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo01Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-01-owner-name
+  summaryLoc: intentions-example-social-duo-01-owner-summary
+  descriptionLoc: intentions-example-social-duo-01-owner-description
+  oocInfoLoc: intentions-example-social-duo-01-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-01-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo01Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-01-partner-name
+  summaryLoc: intentions-example-social-duo-01-partner-summary
+  descriptionLoc: intentions-example-social-duo-01-partner-description
+  oocInfoLoc: intentions-example-social-duo-01-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-01-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo02Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-02-owner-name
+  summaryLoc: intentions-example-social-duo-02-owner-summary
+  descriptionLoc: intentions-example-social-duo-02-owner-description
+  oocInfoLoc: intentions-example-social-duo-02-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-02-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo02Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-02-partner-name
+  summaryLoc: intentions-example-social-duo-02-partner-summary
+  descriptionLoc: intentions-example-social-duo-02-partner-description
+  oocInfoLoc: intentions-example-social-duo-02-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-02-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo03Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-03-owner-name
+  summaryLoc: intentions-example-social-duo-03-owner-summary
+  descriptionLoc: intentions-example-social-duo-03-owner-description
+  oocInfoLoc: intentions-example-social-duo-03-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-03-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo03Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-03-partner-name
+  summaryLoc: intentions-example-social-duo-03-partner-summary
+  descriptionLoc: intentions-example-social-duo-03-partner-description
+  oocInfoLoc: intentions-example-social-duo-03-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-03-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo04Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-04-owner-name
+  summaryLoc: intentions-example-social-duo-04-owner-summary
+  descriptionLoc: intentions-example-social-duo-04-owner-description
+  oocInfoLoc: intentions-example-social-duo-04-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-04-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo04Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-04-partner-name
+  summaryLoc: intentions-example-social-duo-04-partner-summary
+  descriptionLoc: intentions-example-social-duo-04-partner-description
+  oocInfoLoc: intentions-example-social-duo-04-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-04-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo05Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-05-owner-name
+  summaryLoc: intentions-example-social-duo-05-owner-summary
+  descriptionLoc: intentions-example-social-duo-05-owner-description
+  oocInfoLoc: intentions-example-social-duo-05-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-05-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo05Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-05-partner-name
+  summaryLoc: intentions-example-social-duo-05-partner-summary
+  descriptionLoc: intentions-example-social-duo-05-partner-description
+  oocInfoLoc: intentions-example-social-duo-05-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-05-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo06Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-06-owner-name
+  summaryLoc: intentions-example-social-duo-06-owner-summary
+  descriptionLoc: intentions-example-social-duo-06-owner-description
+  oocInfoLoc: intentions-example-social-duo-06-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-06-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo06Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-06-partner-name
+  summaryLoc: intentions-example-social-duo-06-partner-summary
+  descriptionLoc: intentions-example-social-duo-06-partner-description
+  oocInfoLoc: intentions-example-social-duo-06-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-06-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo07Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-07-owner-name
+  summaryLoc: intentions-example-social-duo-07-owner-summary
+  descriptionLoc: intentions-example-social-duo-07-owner-description
+  oocInfoLoc: intentions-example-social-duo-07-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-07-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo07Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-07-partner-name
+  summaryLoc: intentions-example-social-duo-07-partner-summary
+  descriptionLoc: intentions-example-social-duo-07-partner-description
+  oocInfoLoc: intentions-example-social-duo-07-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-07-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo08Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-08-owner-name
+  summaryLoc: intentions-example-social-duo-08-owner-summary
+  descriptionLoc: intentions-example-social-duo-08-owner-description
+  oocInfoLoc: intentions-example-social-duo-08-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-08-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo08Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-08-partner-name
+  summaryLoc: intentions-example-social-duo-08-partner-summary
+  descriptionLoc: intentions-example-social-duo-08-partner-description
+  oocInfoLoc: intentions-example-social-duo-08-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-08-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo09Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-09-owner-name
+  summaryLoc: intentions-example-social-duo-09-owner-summary
+  descriptionLoc: intentions-example-social-duo-09-owner-description
+  oocInfoLoc: intentions-example-social-duo-09-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-09-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo09Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-09-partner-name
+  summaryLoc: intentions-example-social-duo-09-partner-summary
+  descriptionLoc: intentions-example-social-duo-09-partner-description
+  oocInfoLoc: intentions-example-social-duo-09-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-09-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo10Owner
+  kind: primary
+  nameLoc: intentions-example-social-duo-10-owner-name
+  summaryLoc: intentions-example-social-duo-10-owner-summary
+  descriptionLoc: intentions-example-social-duo-10-owner-description
+  oocInfoLoc: intentions-example-social-duo-10-owner-ooc
+  copyableTextLoc: intentions-example-social-duo-10-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSocialDuo10Partner
+  kind: secondary
+  nameLoc: intentions-example-social-duo-10-partner-name
+  summaryLoc: intentions-example-social-duo-10-partner-summary
+  descriptionLoc: intentions-example-social-duo-10-partner-description
+  oocInfoLoc: intentions-example-social-duo-10-partner-ooc
+  copyableTextLoc: intentions-example-social-duo-10-partner-copy
+  defaultVisibility: visible
+  hiddenLabelLoc: intentions-example-social-duo-10-partner-hidden-label
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"

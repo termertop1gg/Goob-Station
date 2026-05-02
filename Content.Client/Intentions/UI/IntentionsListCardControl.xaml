@@ -1,0 +1,47 @@
+<Control xmlns="https://spacestation14.io"
+         HorizontalExpand="True">
+    <PanelContainer Name="CardSurface"
+                    Access="Public"
+                    HorizontalExpand="True">
+        <BoxContainer Orientation="Horizontal"
+                      HorizontalExpand="True">
+            <PanelContainer Name="AccentBar"
+                            Access="Public"
+                            VerticalExpand="True"
+                            MinWidth="7"
+                            MaxWidth="7"/>
+            <Button Name="MainButton"
+                    Access="Public"
+                    HorizontalExpand="True"
+                    MinHeight="76"
+                    StyleClasses="ButtonSquare"
+                    Margin="0">
+                <BoxContainer Orientation="Horizontal"
+                              HorizontalExpand="True"
+                              Margin="8 6">
+                    <Control MinSize="28 28"
+                             MaxSize="28 28"
+                             VerticalAlignment="Center">
+                        <AnimatedTextureRect Name="IconTexture"
+                                             Access="Public"
+                                             HorizontalExpand="True"
+                                             VerticalExpand="True"/>
+                    </Control>
+                    <Control MinWidth="8"/>
+                    <BoxContainer Orientation="Vertical"
+                                  HorizontalExpand="True"
+                                  VerticalAlignment="Center"
+                                  SeparationOverride="2">
+                        <RichTextLabel Name="TitleLabel"
+                                       Access="Public"
+                                       HorizontalExpand="True"/>
+                        <RichTextLabel Name="SummaryLabel"
+                                       Access="Public"
+                                       Modulate="#AEB3C7"
+                                       HorizontalExpand="True"/>
+                    </BoxContainer>
+                </BoxContainer>
+            </Button>
+        </BoxContainer>
+    </PanelContainer>
+</Control>

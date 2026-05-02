@@ -1,0 +1,176 @@
+# Notes:
+# - The category ids, names, and descriptions follow the requirements table.
+# - `priority`, `quotaByGameMode`, and `maxPrimaryPerMindByGameMode`
+#   below are starter placeholders and should be tuned for the server.
+# - `nameLoc` / `descriptionLoc` keys are prepared for a matching FTL file.
+
+# Личные:
+# Намерения, основанные на внутренних переживаниях, настроении, привычках или личных целях персонажа.
+- type: scenarioCategory
+  id: personal
+  nameLoc: intentions-category-personal-name
+  descriptionLoc: intentions-category-personal-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: personal
+  color: "#4A90E2"
+  priority: 100
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Социальные:
+# Взаимоотношения с экипажем, общественная жизнь станции, встречи и мероприятия.
+- type: scenarioCategory
+  id: social
+  nameLoc: intentions-category-social-name
+  descriptionLoc: intentions-category-social-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: social
+  color: "#65B84A"
+  priority: 90
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Профессиональные:
+# Намерения, основанные на должности и рабочих обязанностях персонажа.
+- type: scenarioCategory
+  id: professional
+  nameLoc: intentions-category-professional-name
+  descriptionLoc: intentions-category-professional-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: professional
+  color: "#36A6A6"
+  priority: 80
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Конфликтные:
+# Соперничество, противостояние, месть, давление и подставы.
+- type: scenarioCategory
+  id: conflict
+  nameLoc: intentions-category-conflict-name
+  descriptionLoc: intentions-category-conflict-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: conflict
+  color: "#D94A4A"
+  priority: 70
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Криминальные / незаконные:
+# Кражи, мошенничество, подделка документов, нелетальные нападения.
+- type: scenarioCategory
+  id: criminal
+  nameLoc: intentions-category-criminal-name
+  descriptionLoc: intentions-category-criminal-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: criminal
+  color: "#9B5DE5"
+  priority: 60
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Диверсионные:
+# Саботаж станции, ложные угрозы, сбои снабжения и жизнеобеспечения.
+- type: scenarioCategory
+  id: sabotage
+  nameLoc: intentions-category-sabotage-name
+  descriptionLoc: intentions-category-sabotage-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: sabotage
+  color: "#E67E22"
+  priority: 50
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Антагонистические:
+# Особые намерения, связанные с ролью антагониста.
+- type: scenarioCategory
+  id: antag
+  nameLoc: intentions-category-antag-name
+  descriptionLoc: intentions-category-antag-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: antag
+  color: "#B91C3A"
+  priority: 40
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Событийные / праздничные:
+# Намерения для праздников, тематических событий и особых дат.
+- type: scenarioCategory
+  id: events
+  nameLoc: intentions-category-events-name
+  descriptionLoc: intentions-category-events-description
+  enabled: true
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: events
+  color: "#F2C94C"
+  priority: 30
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+
+# Административные (на будущее):
+# Сценарии для ручного запуска администраторами, сюжетных ивентов и тестов.
+- type: scenarioCategory
+  id: admin
+  nameLoc: intentions-category-admin-name
+  descriptionLoc: intentions-category-admin-description
+  enabled: false
+  icon:
+    sprite: /Textures/Interface/Intentions/category_icons.rsi
+    state: admin
+  color: "#8FA6B2"
+  priority: 0
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 0
+  maxPrimaryPerMindByGameMode:
+    default: 0

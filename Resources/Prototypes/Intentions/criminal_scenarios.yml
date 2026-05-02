@@ -1,0 +1,724 @@
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo01
+  name: "Criminal Solo 01"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo01Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-solo-01-совершить-мелкую-кражу
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo02
+  name: "Criminal Solo 02"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo02Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-solo-02-подделать-документ
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo03
+  name: "Criminal Solo 03"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "Passenger"
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-solo-03-тихо-вынести-ценность
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo04
+  name: "Criminal Solo 04"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo04Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-solo-04-провести-тайный-обмен
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo05
+  name: "Criminal Solo 05"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo05Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-solo-05-обчистить-карман-без-шума
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo06
+  name: "Criminal Solo 06"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: traits
+        operator: "contains"
+        value: "Liar"
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo07
+  name: "Criminal Solo 07"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo07Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo08
+  name: "Criminal Solo 08"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo08Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo09
+  name: "Criminal Solo 09"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Cargo"
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalSolo10
+  name: "Criminal Solo 10"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalSolo10Owner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo01
+  name: "Criminal Duo 01"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo01Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-01-заказчик-и-исполнитель
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo01Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-01-выполнить-грязную-работу
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo02
+  name: "Criminal Duo 02"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo02Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-02-наводчик-и-вор
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo02Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-02-сделать-тихую-кражу
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo03
+  name: "Criminal Duo 03"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "CargoTechnician"
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-03-ложный-свидетель
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo03Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-03-закрепить-ложную-версию
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo04
+  name: "Criminal Duo 04"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo04Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-04-провезти-тайник
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo04Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-04-принять-скрытый-тайник
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo05
+  name: "Criminal Duo 05"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo05Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-05-отвлечь-охрану
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo05Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: criminal-duo-05-пока-охрана-отвлечена
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo06
+  name: "Criminal Duo 06"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo06Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo06Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: traits
+        operator: "contains"
+        value: "Liar"
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo07
+  name: "Criminal Duo 07"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo07Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo07Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo08
+  name: "Criminal Duo 08"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo08Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo08Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo09
+  name: "Criminal Duo 09"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Civilian"
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo09Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleCriminalDuo10
+  name: "Criminal Duo 10"
+  category: criminal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleCriminalDuo10Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleCriminalDuo10Partner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5

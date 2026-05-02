@@ -1,0 +1,724 @@
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo01
+  name: "Events Solo 01"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo01Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-solo-01-тайный-санта
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo02
+  name: "Events Solo 02"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo02Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-solo-02-чужой-день-рождения
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo03
+  name: "Events Solo 03"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Civilian"
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-solo-03-станционный-день-влюблённых
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo04
+  name: "Events Solo 04"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo04Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-solo-04-конкурс-костюмов
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo05
+  name: "Events Solo 05"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo05Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-solo-05-памятный-тост
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo06
+  name: "Events Solo 06"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "Chaplain"
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo07
+  name: "Events Solo 07"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo07Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo08
+  name: "Events Solo 08"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo08Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo09
+  name: "Events Solo 09"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: species
+        operator: "equals"
+        value: "Human"
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsSolo10
+  name: "Events Solo 10"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsSolo10Owner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo01
+  name: "Events Duo 01"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo01Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-01-организатор-и-помощник
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo01Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-01-помочь-с-организацией
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo02
+  name: "Events Duo 02"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo02Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-02-даритель-и-курьер
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo02Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-02-тихо-доставить-подарок
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo03
+  name: "Events Duo 03"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "Chef"
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-03-ведущий-и-участник
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo03Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-03-поддержать-ведущего
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo04
+  name: "Events Duo 04"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo04Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-04-романтический-посредник
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo04Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-04-ответить-на-посредничество
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo05
+  name: "Events Duo 05"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo05Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-05-подготовить-сюрприз
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo05Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: events-duo-05-скрыть-детали-сюрприза
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo06
+  name: "Events Duo 06"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo06Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo06Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Civilian"
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo07
+  name: "Events Duo 07"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo07Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo07Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo08
+  name: "Events Duo 08"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo08Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo08Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo09
+  name: "Events Duo 09"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo09Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo09Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: species
+        operator: "equals"
+        value: "Moth"
+
+- type: scenarioTemplate
+  id: IntentionsExampleEventsDuo10
+  name: "Events Duo 10"
+  category: events
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleEventsDuo10Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleEventsDuo10Partner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5

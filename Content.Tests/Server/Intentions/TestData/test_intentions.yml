@@ -1,0 +1,2442 @@
+﻿- type: scenarioCategory
+  id: IntentionsTestSocial
+  nameLoc: intentions-test-category-social-name
+  descriptionLoc: intentions-test-category-social-description
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Passenger
+  color: "#5AA9E6FF"
+  priority: 30
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+    IntentionsTest:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+    IntentionsTest: 2
+
+- type: scenarioCategory
+  id: IntentionsTestOperations
+  nameLoc: intentions-test-category-operations-name
+  descriptionLoc: intentions-test-category-operations-description
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: StationEngineer
+  color: "#8AC926FF"
+  priority: 20
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+    IntentionsTest:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+    IntentionsTest: 2
+
+- type: scenarioCategory
+  id: IntentionsTestMystery
+  nameLoc: intentions-test-category-mystery-name
+  descriptionLoc: intentions-test-category-mystery-description
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Detective
+  color: "#FFCA3AFF"
+  priority: 10
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 20
+    IntentionsTest:
+      mode: fixed
+      value: 20
+  maxPrimaryPerMindByGameMode:
+    default: 2
+    IntentionsTest: 2
+
+- type: intentionTemplate
+  id: IntentionsTestSocialPrimary
+  kind: primary
+  nameLoc: intentions-test-social-primary-name
+  summaryLoc: intentions-test-social-primary-summary
+  descriptionLoc: intentions-test-social-primary-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-primary-copy
+  defaultVisibility: visible
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Musician
+  color: "#5AA9E6FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSoloSocialPrimary-1
+  kind: primary
+  nameLoc: intentions-test-solo-social-primary-name-1
+  summaryLoc: intentions-test-social-primary-summary
+  descriptionLoc: intentions-test-social-primary-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-primary-copy
+  defaultVisibility: visible
+  color: "#5AA9E6FF"
+  author: "one"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSoloSocialPrimary-2
+  kind: primary
+  nameLoc: intentions-test-solo-social-primary-name-2
+  summaryLoc: intentions-test-social-primary-summary
+  descriptionLoc: intentions-test-social-primary-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-primary-copy
+  defaultVisibility: visible
+  color: "#5AA9E6FF"
+  author: "two"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSoloSocialPrimary-3
+  kind: primary
+  nameLoc: intentions-test-solo-social-primary-name-3
+  summaryLoc: intentions-test-social-primary-summary
+  descriptionLoc: intentions-test-social-primary-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-primary-copy
+  defaultVisibility: visible
+  color: "#5AA9E6FF"
+  author: "three"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialWitness
+  kind: secondary
+  nameLoc: intentions-test-social-witness-name
+  summaryLoc: intentions-test-social-witness-summary
+  descriptionLoc: intentions-test-social-witness-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-witness-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialGreetingRelayPartner
+  kind: secondary
+  nameLoc: intentions-test-social-greeting-relay-partner-name
+  summaryLoc: intentions-test-social-greeting-relay-partner-summary
+  descriptionLoc: intentions-test-social-greeting-relay-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-greeting-relay-partner-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialSharedRumorPartner
+  kind: secondary
+  nameLoc: intentions-test-social-shared-rumor-partner-name
+  summaryLoc: intentions-test-social-shared-rumor-partner-summary
+  descriptionLoc: intentions-test-social-shared-rumor-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-shared-rumor-partner-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialCafeteriaPlanPartner
+  kind: secondary
+  nameLoc: intentions-test-social-cafeteria-plan-partner-name
+  summaryLoc: intentions-test-social-cafeteria-plan-partner-summary
+  descriptionLoc: intentions-test-social-cafeteria-plan-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-cafeteria-plan-partner-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialQuietApologyPartner
+  kind: secondary
+  nameLoc: intentions-test-social-quiet-apology-partner-name
+  summaryLoc: intentions-test-social-quiet-apology-partner-summary
+  descriptionLoc: intentions-test-social-quiet-apology-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-quiet-apology-partner-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialDepartmentBridgePartner
+  kind: secondary
+  nameLoc: intentions-test-social-department-bridge-partner-name
+  summaryLoc: intentions-test-social-department-bridge-partner-summary
+  descriptionLoc: intentions-test-social-department-bridge-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-department-bridge-partner-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialLostKeepsakePartner
+  kind: secondary
+  nameLoc: intentions-test-social-lost-keepsake-partner-name
+  summaryLoc: intentions-test-social-lost-keepsake-partner-summary
+  descriptionLoc: intentions-test-social-lost-keepsake-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-lost-keepsake-partner-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestSocialBreakRoomStoryPartner
+  kind: secondary
+  nameLoc: intentions-test-social-break-room-story-partner-name
+  summaryLoc: intentions-test-social-break-room-story-partner-summary
+  descriptionLoc: intentions-test-social-break-room-story-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-social-break-room-story-partner-copy
+  defaultVisibility: visible
+  color: "#89C2D9FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsPrimary
+  kind: primary
+  nameLoc: intentions-test-operations-primary-name
+  summaryLoc: intentions-test-operations-primary-summary
+  descriptionLoc: intentions-test-operations-primary-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-primary-copy
+  defaultVisibility: visible
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SeniorEngineer
+  color: "#8AC926FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsWitness
+  kind: secondary
+  nameLoc: intentions-test-operations-witness-name
+  summaryLoc: intentions-test-operations-witness-summary
+  descriptionLoc: intentions-test-operations-witness-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-witness-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsToolAuditPartner
+  kind: secondary
+  nameLoc: intentions-test-operations-tool-audit-partner-name
+  summaryLoc: intentions-test-operations-tool-audit-partner-summary
+  descriptionLoc: intentions-test-operations-tool-audit-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-tool-audit-partner-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsSupplyChainPartner
+  kind: secondary
+  nameLoc: intentions-test-operations-supply-chain-partner-name
+  summaryLoc: intentions-test-operations-supply-chain-partner-summary
+  descriptionLoc: intentions-test-operations-supply-chain-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-supply-chain-partner-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsSafetyWalkPartner
+  kind: secondary
+  nameLoc: intentions-test-operations-safety-walk-partner-name
+  summaryLoc: intentions-test-operations-safety-walk-partner-summary
+  descriptionLoc: intentions-test-operations-safety-walk-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-safety-walk-partner-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsRepairWitnessPartner
+  kind: secondary
+  nameLoc: intentions-test-operations-repair-witness-partner-name
+  summaryLoc: intentions-test-operations-repair-witness-partner-summary
+  descriptionLoc: intentions-test-operations-repair-witness-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-repair-witness-partner-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsCargoFavorPartner
+  kind: secondary
+  nameLoc: intentions-test-operations-cargo-favor-partner-name
+  summaryLoc: intentions-test-operations-cargo-favor-partner-summary
+  descriptionLoc: intentions-test-operations-cargo-favor-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-cargo-favor-partner-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsMedicalFollowupPartner
+  kind: secondary
+  nameLoc: intentions-test-operations-medical-followup-partner-name
+  summaryLoc: intentions-test-operations-medical-followup-partner-summary
+  descriptionLoc: intentions-test-operations-medical-followup-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-medical-followup-partner-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestOperationsResearchHandOffPartner
+  kind: secondary
+  nameLoc: intentions-test-operations-research-handoff-partner-name
+  summaryLoc: intentions-test-operations-research-handoff-partner-summary
+  descriptionLoc: intentions-test-operations-research-handoff-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-operations-research-handoff-partner-copy
+  defaultVisibility: visible
+  color: "#B7E4C7FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryPrimary
+  kind: primary
+  nameLoc: intentions-test-mystery-primary-name
+  summaryLoc: intentions-test-mystery-primary-summary
+  descriptionLoc: intentions-test-mystery-primary-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-primary-copy
+  defaultVisibility: visible
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Reporter
+  color: "#FFCA3AFF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryWitness
+  kind: secondary
+  nameLoc: intentions-test-mystery-witness-name
+  summaryLoc: intentions-test-mystery-witness-summary
+  descriptionLoc: intentions-test-mystery-witness-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-witness-copy
+  defaultVisibility: hidden
+  hiddenLabelLoc: intentions-test-mystery-hidden-label
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryStrangeSignalPartner
+  kind: secondary
+  nameLoc: intentions-test-mystery-strange-signal-partner-name
+  summaryLoc: intentions-test-mystery-strange-signal-partner-summary
+  descriptionLoc: intentions-test-mystery-strange-signal-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-strange-signal-partner-copy
+  defaultVisibility: visible
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryMissingPagePartner
+  kind: secondary
+  nameLoc: intentions-test-mystery-missing-page-partner-name
+  summaryLoc: intentions-test-mystery-missing-page-partner-summary
+  descriptionLoc: intentions-test-mystery-missing-page-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-missing-page-partner-copy
+  defaultVisibility: visible
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryUnmarkedCratePartner
+  kind: secondary
+  nameLoc: intentions-test-mystery-unmarked-crate-partner-name
+  summaryLoc: intentions-test-mystery-unmarked-crate-partner-summary
+  descriptionLoc: intentions-test-mystery-unmarked-crate-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-unmarked-crate-partner-copy
+  defaultVisibility: visible
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryWhisperedCodePartner
+  kind: secondary
+  nameLoc: intentions-test-mystery-whispered-code-partner-name
+  summaryLoc: intentions-test-mystery-whispered-code-partner-summary
+  descriptionLoc: intentions-test-mystery-whispered-code-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-whispered-code-partner-copy
+  defaultVisibility: visible
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryLockedDoorPartner
+  kind: secondary
+  nameLoc: intentions-test-mystery-locked-door-partner-name
+  summaryLoc: intentions-test-mystery-locked-door-partner-summary
+  descriptionLoc: intentions-test-mystery-locked-door-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-locked-door-partner-copy
+  defaultVisibility: visible
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryFlickeringLightPartner
+  kind: secondary
+  nameLoc: intentions-test-mystery-flickering-light-partner-name
+  summaryLoc: intentions-test-mystery-flickering-light-partner-summary
+  descriptionLoc: intentions-test-mystery-flickering-light-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-flickering-light-partner-copy
+  defaultVisibility: visible
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsTestMysteryAnonymousTipPartner
+  kind: secondary
+  nameLoc: intentions-test-mystery-anonymous-tip-partner-name
+  summaryLoc: intentions-test-mystery-anonymous-tip-partner-summary
+  descriptionLoc: intentions-test-mystery-anonymous-tip-partner-description
+  oocInfoLoc: intentions-test-ooc-info
+  copyableTextLoc: intentions-test-mystery-anonymous-tip-partner-copy
+  defaultVisibility: visible
+  color: "#FFD166FF"
+  creationDate: "2026-04-22"
+
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialGreetingRelay
+  name: Test social greeting relay
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSocialPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestSocialGreetingRelayPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: social-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialSharedRumor
+  name: Test social shared rumor
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSocialPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestSocialSharedRumorPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: social-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialCafeteriaPlan
+  name: Test social cafeteria plan
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 3
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSocialPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestSocialCafeteriaPlanPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: social-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialQuietApology
+  name: Test social quiet apology
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSocialPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestSocialQuietApologyPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: social-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialDepartmentBridge
+  name: Test social department bridge
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSocialPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestSocialDepartmentBridgePartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: social-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialLostKeepsake
+  name: Test social lost keepsake
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSocialPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestSocialLostKeepsakePartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: social-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialBreakRoomStory
+  name: Test social break room story
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSocialPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestSocialBreakRoomStoryPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestSocialWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: social-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsToolAudit
+  name: Test operations tool audit
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestOperationsToolAuditPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: operations-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsSupplyChain
+  name: Test operations supply chain
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestOperationsSupplyChainPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: operations-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsSafetyWalk
+  name: Test operations safety walk
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 3
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestOperationsSafetyWalkPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: operations-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsRepairWitness
+  name: Test operations repair witness
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestOperationsRepairWitnessPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: operations-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsCargoFavor
+  name: Test operations cargo favor
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestOperationsCargoFavorPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: operations-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsMedicalFollowup
+  name: Test operations medical followup
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestOperationsMedicalFollowupPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: operations-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsResearchHandOff
+  name: Test operations research handoff
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestOperationsResearchHandOffPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: true
+    bindToSlot: owner
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestOperationsWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: operations-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestMysteryStrangeSignal
+  name: Test mystery strange signal
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestMysteryStrangeSignalPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: true
+    bindToSlot: owner
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: none
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: mystery-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialSoloCheckIn
+  name: Test social solo check-in
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 10
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSoloSocialPrimary-1
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialSoloKeepsake
+  name: Test social solo keepsake
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 10
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSoloSocialPrimary-2
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsTestSocialSolo3
+  name: Test social solo keepsake
+  category: IntentionsTestSocial
+  enabled: true
+  weight: 10
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestSoloSocialPrimary-3
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsSoloInspection
+  name: Test operations solo inspection
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 10
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsTestOperationsSoloNote
+  name: Test operations solo note
+  category: IntentionsTestOperations
+  enabled: true
+  weight: 10
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestOperationsPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsTestMysterySoloSignal
+  name: Test mystery solo signal
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 10
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsTestMysterySoloClue
+  name: Test mystery solo clue
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 10
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsTestMysteryMissingPage
+  name: Test mystery missing page
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestMysteryMissingPagePartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: true
+    bindToSlot: owner
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: none
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: mystery-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestMysteryUnmarkedCrate
+  name: Test mystery unmarked crate
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 3
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestMysteryUnmarkedCratePartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: true
+    bindToSlot: owner
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: none
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: mystery-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestMysteryWhisperedCode
+  name: Test mystery whispered code
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestMysteryWhisperedCodePartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: true
+    bindToSlot: owner
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: none
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: mystery-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestMysteryLockedDoor
+  name: Test mystery locked door
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestMysteryLockedDoorPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: true
+    bindToSlot: owner
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: none
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: mystery-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestMysteryFlickeringLight
+  name: Test mystery flickering light
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 2
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestMysteryFlickeringLightPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: true
+    bindToSlot: owner
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: none
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: mystery-observer
+
+- type: scenarioTemplate
+  id: IntentionsTestMysteryAnonymousTip
+  name: Test mystery anonymous tip
+  category: IntentionsTestMystery
+  enabled: true
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "2"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsTestMysteryPrimary
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsTestMysteryAnonymousTipPartner
+    required: true
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: ownerEcho
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: true
+    bindToSlot: owner
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: observer
+    kind: secondary
+    intentionId: IntentionsTestMysteryWitness
+    required: false
+    allowSameActorAs: [owner, partner]
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: none
+    candidatePredicates:
+    - scope: candidate
+      field: age
+      operator: ">="
+      value: "18"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: mystery-observer

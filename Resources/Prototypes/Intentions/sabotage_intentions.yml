@@ -1,0 +1,361 @@
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo01Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-01-owner-name
+  summaryLoc: intentions-example-sabotage-solo-01-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-01-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-01-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-01-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo02Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-02-owner-name
+  summaryLoc: intentions-example-sabotage-solo-02-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-02-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-02-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-02-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo03Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-03-owner-name
+  summaryLoc: intentions-example-sabotage-solo-03-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-03-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-03-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-03-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo04Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-04-owner-name
+  summaryLoc: intentions-example-sabotage-solo-04-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-04-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-04-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-04-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo05Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-05-owner-name
+  summaryLoc: intentions-example-sabotage-solo-05-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-05-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-05-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-05-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo06Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-06-owner-name
+  summaryLoc: intentions-example-sabotage-solo-06-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-06-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-06-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-06-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo07Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-07-owner-name
+  summaryLoc: intentions-example-sabotage-solo-07-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-07-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-07-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-07-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo08Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-08-owner-name
+  summaryLoc: intentions-example-sabotage-solo-08-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-08-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-08-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-08-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo09Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-09-owner-name
+  summaryLoc: intentions-example-sabotage-solo-09-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-09-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-09-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-09-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageSolo10Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-solo-10-owner-name
+  summaryLoc: intentions-example-sabotage-solo-10-owner-summary
+  descriptionLoc: intentions-example-sabotage-solo-10-owner-description
+  oocInfoLoc: intentions-example-sabotage-solo-10-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-solo-10-owner-copy
+  defaultVisibility: visible
+  hiddenLabelLoc: intentions-example-sabotage-solo-10-owner-hidden-label
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo01Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-01-owner-name
+  summaryLoc: intentions-example-sabotage-duo-01-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-01-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-01-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-01-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo01Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-01-partner-name
+  summaryLoc: intentions-example-sabotage-duo-01-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-01-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-01-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-01-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo02Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-02-owner-name
+  summaryLoc: intentions-example-sabotage-duo-02-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-02-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-02-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-02-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo02Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-02-partner-name
+  summaryLoc: intentions-example-sabotage-duo-02-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-02-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-02-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-02-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo03Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-03-owner-name
+  summaryLoc: intentions-example-sabotage-duo-03-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-03-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-03-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-03-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo03Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-03-partner-name
+  summaryLoc: intentions-example-sabotage-duo-03-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-03-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-03-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-03-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo04Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-04-owner-name
+  summaryLoc: intentions-example-sabotage-duo-04-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-04-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-04-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-04-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo04Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-04-partner-name
+  summaryLoc: intentions-example-sabotage-duo-04-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-04-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-04-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-04-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo05Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-05-owner-name
+  summaryLoc: intentions-example-sabotage-duo-05-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-05-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-05-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-05-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo05Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-05-partner-name
+  summaryLoc: intentions-example-sabotage-duo-05-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-05-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-05-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-05-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo06Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-06-owner-name
+  summaryLoc: intentions-example-sabotage-duo-06-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-06-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-06-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-06-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo06Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-06-partner-name
+  summaryLoc: intentions-example-sabotage-duo-06-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-06-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-06-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-06-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo07Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-07-owner-name
+  summaryLoc: intentions-example-sabotage-duo-07-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-07-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-07-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-07-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo07Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-07-partner-name
+  summaryLoc: intentions-example-sabotage-duo-07-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-07-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-07-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-07-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo08Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-08-owner-name
+  summaryLoc: intentions-example-sabotage-duo-08-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-08-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-08-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-08-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo08Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-08-partner-name
+  summaryLoc: intentions-example-sabotage-duo-08-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-08-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-08-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-08-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo09Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-09-owner-name
+  summaryLoc: intentions-example-sabotage-duo-09-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-09-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-09-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-09-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo09Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-09-partner-name
+  summaryLoc: intentions-example-sabotage-duo-09-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-09-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-09-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-09-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo10Owner
+  kind: primary
+  nameLoc: intentions-example-sabotage-duo-10-owner-name
+  summaryLoc: intentions-example-sabotage-duo-10-owner-summary
+  descriptionLoc: intentions-example-sabotage-duo-10-owner-description
+  oocInfoLoc: intentions-example-sabotage-duo-10-owner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-10-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleSabotageDuo10Partner
+  kind: secondary
+  nameLoc: intentions-example-sabotage-duo-10-partner-name
+  summaryLoc: intentions-example-sabotage-duo-10-partner-summary
+  descriptionLoc: intentions-example-sabotage-duo-10-partner-description
+  oocInfoLoc: intentions-example-sabotage-duo-10-partner-ooc
+  copyableTextLoc: intentions-example-sabotage-duo-10-partner-copy
+  defaultVisibility: visible
+  hiddenLabelLoc: intentions-example-sabotage-duo-10-partner-hidden-label
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"

@@ -1,0 +1,724 @@
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo01
+  name: "Professional Solo 01"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo01Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-solo-01-провести-мединструктаж
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo02
+  name: "Professional Solo 02"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo02Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-solo-02-собрать-фирменное-блюдо
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo03
+  name: "Professional Solo 03"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "MedicalDoctor"
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-solo-03-сверить-нужды-отделов
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo04
+  name: "Professional Solo 04"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo04Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-solo-04-проверить-инструменты
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo05
+  name: "Professional Solo 05"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo05Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-solo-05-напомнить-о-безопасности
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo06
+  name: "Professional Solo 06"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Engineering"
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo07
+  name: "Professional Solo 07"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo07Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo08
+  name: "Professional Solo 08"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo08Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo09
+  name: "Professional Solo 09"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: hasMindshield
+        operator: "equals"
+        value: "true"
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalSolo10
+  name: "Professional Solo 10"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalSolo10Owner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo01
+  name: "Professional Duo 01"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo01Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-01-инженер-и-заказчик
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo01Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-01-сформулировать-заказ
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo02
+  name: "Professional Duo 02"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo02Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-02-врач-и-пациент
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo02Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-02-описать-жалобу
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo03
+  name: "Professional Duo 03"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Medical"
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-03-снабженец-и-получатель
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo03Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-03-принять-поставку
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo04
+  name: "Professional Duo 04"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo04Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-04-учёный-и-техник
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo04Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-04-помочь-с-проверкой
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo05
+  name: "Professional Duo 05"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo05Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-05-ботаник-и-повар
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo05Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: professional-duo-05-заказать-ингредиенты
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo06
+  name: "Professional Duo 06"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo06Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo06Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "Scientist"
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo07
+  name: "Professional Duo 07"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo07Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo07Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo08
+  name: "Professional Duo 08"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo08Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo08Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo09
+  name: "Professional Duo 09"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: hasMindshield
+        operator: "equals"
+        value: "true"
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo09Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleProfessionalDuo10
+  name: "Professional Duo 10"
+  category: professional
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleProfessionalDuo10Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleProfessionalDuo10Partner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5

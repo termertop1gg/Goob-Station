@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "personal"
+    },
+    {
+      "name": "social"
+    },
+    {
+      "name": "professional"
+    },
+    {
+      "name": "conflict"
+    },
+    {
+      "name": "criminal"
+    },
+    {
+      "name": "sabotage"
+    },
+	{
+      "name": "antag"
+    },
+	{
+      "name": "events"
+    },
+    {
+      "name": "admin"
+    }
+  ]
+}

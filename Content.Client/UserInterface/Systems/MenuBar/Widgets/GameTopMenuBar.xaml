@@ -59,6 +59,15 @@ SPDX-License-Identifier: AGPL-3.0-or-later
         AppendStyleClass="{x:Static style:StyleBase.ButtonSquare}"
         />
     <ui:MenuButton
+        Name="IntentionsButton"
+        Access="Internal"
+        Icon="{xe:Tex '/Textures/Interface/VerbIcons/intentions.svg.192dpi.png'}"
+        ToolTip="{Loc 'game-hud-open-intentions-menu-button-tooltip'}"
+        MinSize="42 64"
+        HorizontalExpand="True"
+        AppendStyleClass="{x:Static style:StyleBase.ButtonSquare}"
+        />
+    <ui:MenuButton
         Name="EmotesButton"
         Access="Internal"
         Icon="{xe:Tex '/Textures/Interface/emotes.svg.192dpi.png'}"

@@ -1,0 +1,41 @@
+﻿intentions-admin-verb-text = View intentions
+
+intentions-ui-title = Intentions
+intentions-ui-title-admin = Intentions admin view
+intentions-ui-own-section = Primary intentions
+intentions-ui-linked-section = Secondary intentions
+intentions-ui-admin-scenarios-section = Admin scenario state
+intentions-ui-admin-scenario-line = #{ $uid } { $template } [{ $status }] wave { $wave }
+intentions-ui-open-materials = Open materials
+intentions-ui-materials-title = Intention materials
+
+intentions-ui-author-line = Author: {$author}
+intentions-ui-created-by-line = Created by {$author}
+intentions-ui-intention-status-line = Status: {$status}
+intentions-ui-reveal-header = Reveal
+intentions-ui-ooc-header = OOC note
+intentions-ui-description-header = Description
+intentions-ui-intention-header = Intention
+intentions-ui-author-hidden = Hidden
+intentions-ui-author-unknown = Unknown
+default-hidden-label = Hidden intention
+default-ooc-info = Don't break the server rules. Intentions are optional roleplay prompts. Other players are not required to follow them.
+intentions-ui-hidden-title = Hidden intention
+intentions-ui-hidden-description = This intention is hidden for now. It will show details only after it is revealed.
+intentions-ui-hidden-reveal-none = Hidden with no automatic reveal.
+intentions-ui-hidden-reveal-timer = Reveals in {$time}
+intentions-ui-revealed = Revealed
+intentions-ui-reveal-notification = A hidden intention has been revealed.
+intentions-chat-assigned-visible-one = You received {$count} intention: {$names}
+intentions-chat-assigned-visible-many = You received {$count} intentions: {$names}
+intentions-chat-assigned-hidden-one = You received {$count} hidden intention. Its details are hidden for now.
+intentions-chat-assigned-hidden-many = You received {$count} hidden intentions. Their details are hidden for now.
+intentions-chat-assigned-mixed-hidden-one = You received {$count} intentions: {$names}. One more intention is hidden for now.
+intentions-chat-assigned-mixed-hidden-many = You received {$count} intentions: {$names}. {$hiddenCount} more intentions are hidden for now.
+
+intentions-ui-empty-title = No intention selected
+intentions-ui-empty-description = Select an intention from the list.
+intentions-ui-missing-template-title = Missing intention template
+intentions-ui-missing-template-description = This runtime intention references content that is not available in the validated catalog.
+intentions-ui-missing-slot-status = Missing slot
+intentions-ui-unknown-target = Unknown

@@ -1,0 +1,724 @@
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo01
+  name: "Sabotage Solo 01"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo01Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-solo-01-потерять-важный-груз
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo02
+  name: "Sabotage Solo 02"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo02Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-solo-02-устроить-мелкий-сбой
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo03
+  name: "Sabotage Solo 03"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "StationEngineer"
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-solo-03-поднять-ложную-тревогу
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo04
+  name: "Sabotage Solo 04"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo04Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-solo-04-перепутать-заявки
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo05
+  name: "Sabotage Solo 05"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo05Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-solo-05-замедлить-ремонт
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo06
+  name: "Sabotage Solo 06"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Cargo"
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo07
+  name: "Sabotage Solo 07"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo07Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo08
+  name: "Sabotage Solo 08"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo08Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo09
+  name: "Sabotage Solo 09"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: hasMindshield
+        operator: "equals"
+        value: "false"
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageSolo10
+  name: "Sabotage Solo 10"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageSolo10Owner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo01
+  name: "Sabotage Duo 01"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo01Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-01-ломать-и-отвлекать
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo01Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-01-отвлекать-от-поломки
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo02
+  name: "Sabotage Duo 02"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo02Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-02-снабжение-и-прикрытие
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo02Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-02-прикрыть-срыв-поставки
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo03
+  name: "Sabotage Duo 03"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: department
+        operator: "equals"
+        value: "Engineering"
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-03-энергоузел-и-свидетель
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo03Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-03-скрыть-сбой-энергоузла
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo04
+  name: "Sabotage Duo 04"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo04Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-04-ложная-угроза
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo04Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-04-разгонять-лишнюю-панику
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo05
+  name: "Sabotage Duo 05"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo05Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-05-испортить-маршрут
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo05Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: sabotage-duo-05-увести-груз-не-туда
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo06
+  name: "Sabotage Duo 06"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo06Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo06Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: job
+        operator: "equals"
+        value: "CargoTechnician"
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo07
+  name: "Sabotage Duo 07"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo07Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo07Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo08
+  name: "Sabotage Duo 08"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo08Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo08Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo09
+  name: "Sabotage Duo 09"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo09Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo09Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: hasMindshield
+        operator: "equals"
+        value: "false"
+
+- type: scenarioTemplate
+  id: IntentionsExampleSabotageDuo10
+  name: "Sabotage Duo 10"
+  category: sabotage
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExampleSabotageDuo10Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExampleSabotageDuo10Partner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5

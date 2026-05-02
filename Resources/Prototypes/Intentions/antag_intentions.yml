@@ -1,0 +1,361 @@
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo01Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-01-owner-name
+  summaryLoc: intentions-example-antag-solo-01-owner-summary
+  descriptionLoc: intentions-example-antag-solo-01-owner-description
+  oocInfoLoc: intentions-example-antag-solo-01-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-01-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo02Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-02-owner-name
+  summaryLoc: intentions-example-antag-solo-02-owner-summary
+  descriptionLoc: intentions-example-antag-solo-02-owner-description
+  oocInfoLoc: intentions-example-antag-solo-02-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-02-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo03Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-03-owner-name
+  summaryLoc: intentions-example-antag-solo-03-owner-summary
+  descriptionLoc: intentions-example-antag-solo-03-owner-description
+  oocInfoLoc: intentions-example-antag-solo-03-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-03-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo04Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-04-owner-name
+  summaryLoc: intentions-example-antag-solo-04-owner-summary
+  descriptionLoc: intentions-example-antag-solo-04-owner-description
+  oocInfoLoc: intentions-example-antag-solo-04-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-04-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo05Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-05-owner-name
+  summaryLoc: intentions-example-antag-solo-05-owner-summary
+  descriptionLoc: intentions-example-antag-solo-05-owner-description
+  oocInfoLoc: intentions-example-antag-solo-05-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-05-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo06Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-06-owner-name
+  summaryLoc: intentions-example-antag-solo-06-owner-summary
+  descriptionLoc: intentions-example-antag-solo-06-owner-description
+  oocInfoLoc: intentions-example-antag-solo-06-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-06-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo07Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-07-owner-name
+  summaryLoc: intentions-example-antag-solo-07-owner-summary
+  descriptionLoc: intentions-example-antag-solo-07-owner-description
+  oocInfoLoc: intentions-example-antag-solo-07-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-07-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo08Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-08-owner-name
+  summaryLoc: intentions-example-antag-solo-08-owner-summary
+  descriptionLoc: intentions-example-antag-solo-08-owner-description
+  oocInfoLoc: intentions-example-antag-solo-08-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-08-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo09Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-09-owner-name
+  summaryLoc: intentions-example-antag-solo-09-owner-summary
+  descriptionLoc: intentions-example-antag-solo-09-owner-description
+  oocInfoLoc: intentions-example-antag-solo-09-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-09-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagSolo10Owner
+  kind: primary
+  nameLoc: intentions-example-antag-solo-10-owner-name
+  summaryLoc: intentions-example-antag-solo-10-owner-summary
+  descriptionLoc: intentions-example-antag-solo-10-owner-description
+  oocInfoLoc: intentions-example-antag-solo-10-owner-ooc
+  copyableTextLoc: intentions-example-antag-solo-10-owner-copy
+  defaultVisibility: visible
+  hiddenLabelLoc: intentions-example-antag-solo-10-owner-hidden-label
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo01Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-01-owner-name
+  summaryLoc: intentions-example-antag-duo-01-owner-summary
+  descriptionLoc: intentions-example-antag-duo-01-owner-description
+  oocInfoLoc: intentions-example-antag-duo-01-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-01-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo01Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-01-partner-name
+  summaryLoc: intentions-example-antag-duo-01-partner-summary
+  descriptionLoc: intentions-example-antag-duo-01-partner-description
+  oocInfoLoc: intentions-example-antag-duo-01-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-01-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo02Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-02-owner-name
+  summaryLoc: intentions-example-antag-duo-02-owner-summary
+  descriptionLoc: intentions-example-antag-duo-02-owner-description
+  oocInfoLoc: intentions-example-antag-duo-02-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-02-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo02Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-02-partner-name
+  summaryLoc: intentions-example-antag-duo-02-partner-summary
+  descriptionLoc: intentions-example-antag-duo-02-partner-description
+  oocInfoLoc: intentions-example-antag-duo-02-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-02-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo03Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-03-owner-name
+  summaryLoc: intentions-example-antag-duo-03-owner-summary
+  descriptionLoc: intentions-example-antag-duo-03-owner-description
+  oocInfoLoc: intentions-example-antag-duo-03-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-03-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo03Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-03-partner-name
+  summaryLoc: intentions-example-antag-duo-03-partner-summary
+  descriptionLoc: intentions-example-antag-duo-03-partner-description
+  oocInfoLoc: intentions-example-antag-duo-03-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-03-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo04Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-04-owner-name
+  summaryLoc: intentions-example-antag-duo-04-owner-summary
+  descriptionLoc: intentions-example-antag-duo-04-owner-description
+  oocInfoLoc: intentions-example-antag-duo-04-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-04-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo04Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-04-partner-name
+  summaryLoc: intentions-example-antag-duo-04-partner-summary
+  descriptionLoc: intentions-example-antag-duo-04-partner-description
+  oocInfoLoc: intentions-example-antag-duo-04-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-04-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo05Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-05-owner-name
+  summaryLoc: intentions-example-antag-duo-05-owner-summary
+  descriptionLoc: intentions-example-antag-duo-05-owner-description
+  oocInfoLoc: intentions-example-antag-duo-05-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-05-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo05Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-05-partner-name
+  summaryLoc: intentions-example-antag-duo-05-partner-summary
+  descriptionLoc: intentions-example-antag-duo-05-partner-description
+  oocInfoLoc: intentions-example-antag-duo-05-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-05-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo06Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-06-owner-name
+  summaryLoc: intentions-example-antag-duo-06-owner-summary
+  descriptionLoc: intentions-example-antag-duo-06-owner-description
+  oocInfoLoc: intentions-example-antag-duo-06-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-06-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo06Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-06-partner-name
+  summaryLoc: intentions-example-antag-duo-06-partner-summary
+  descriptionLoc: intentions-example-antag-duo-06-partner-description
+  oocInfoLoc: intentions-example-antag-duo-06-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-06-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo07Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-07-owner-name
+  summaryLoc: intentions-example-antag-duo-07-owner-summary
+  descriptionLoc: intentions-example-antag-duo-07-owner-description
+  oocInfoLoc: intentions-example-antag-duo-07-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-07-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo07Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-07-partner-name
+  summaryLoc: intentions-example-antag-duo-07-partner-summary
+  descriptionLoc: intentions-example-antag-duo-07-partner-description
+  oocInfoLoc: intentions-example-antag-duo-07-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-07-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo08Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-08-owner-name
+  summaryLoc: intentions-example-antag-duo-08-owner-summary
+  descriptionLoc: intentions-example-antag-duo-08-owner-description
+  oocInfoLoc: intentions-example-antag-duo-08-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-08-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo08Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-08-partner-name
+  summaryLoc: intentions-example-antag-duo-08-partner-summary
+  descriptionLoc: intentions-example-antag-duo-08-partner-description
+  oocInfoLoc: intentions-example-antag-duo-08-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-08-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo09Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-09-owner-name
+  summaryLoc: intentions-example-antag-duo-09-owner-summary
+  descriptionLoc: intentions-example-antag-duo-09-owner-description
+  oocInfoLoc: intentions-example-antag-duo-09-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-09-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo09Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-09-partner-name
+  summaryLoc: intentions-example-antag-duo-09-partner-summary
+  descriptionLoc: intentions-example-antag-duo-09-partner-description
+  oocInfoLoc: intentions-example-antag-duo-09-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-09-partner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo10Owner
+  kind: primary
+  nameLoc: intentions-example-antag-duo-10-owner-name
+  summaryLoc: intentions-example-antag-duo-10-owner-summary
+  descriptionLoc: intentions-example-antag-duo-10-owner-description
+  oocInfoLoc: intentions-example-antag-duo-10-owner-ooc
+  copyableTextLoc: intentions-example-antag-duo-10-owner-copy
+  defaultVisibility: visible
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"
+
+- type: intentionTemplate
+  id: IntentionsExampleAntagDuo10Partner
+  kind: secondary
+  nameLoc: intentions-example-antag-duo-10-partner-name
+  summaryLoc: intentions-example-antag-duo-10-partner-summary
+  descriptionLoc: intentions-example-antag-duo-10-partner-description
+  oocInfoLoc: intentions-example-antag-duo-10-partner-ooc
+  copyableTextLoc: intentions-example-antag-duo-10-partner-copy
+  defaultVisibility: visible
+  hiddenLabelLoc: intentions-example-antag-duo-10-partner-hidden-label
+  author: "Intentions Example Pack"
+  creationDate: "2026-05-01"

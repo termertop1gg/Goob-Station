@@ -1,0 +1,186 @@
+- type: scenarioCategory
+  id: IntentionsSmokeSocial
+  nameLoc: intentions-smoke-category-social-name
+  descriptionLoc: intentions-smoke-category-social-description
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Passenger
+  color: "#6CA6FFFF"
+  priority: 10
+  quotaByGameMode:
+    default:
+      mode: fixed
+      value: 0
+  maxPrimaryPerMindByGameMode:
+    default: 1
+
+- type: intentionTemplate
+  id: IntentionsSmokePrimaryCoordinate
+  kind: primary
+  nameLoc: intentions-smoke-primary-coordinate-name
+  summaryLoc: intentions-smoke-primary-coordinate-summary
+  descriptionLoc: intentions-smoke-primary-coordinate-description
+  oocInfoLoc: intentions-smoke-ooc-info
+  copyableTextLoc: intentions-smoke-primary-coordinate-copy
+  defaultVisibility: visible
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Musician
+  color: "#6CA6FFFF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsSmokeSecondaryAssist
+  kind: secondary
+  nameLoc: intentions-smoke-secondary-assist-name
+  summaryLoc: intentions-smoke-secondary-assist-summary
+  descriptionLoc: intentions-smoke-secondary-assist-description
+  oocInfoLoc: intentions-smoke-ooc-info
+  copyableTextLoc: intentions-smoke-secondary-assist-copy
+  defaultVisibility: visible
+  color: "#A0D468FF"
+  creationDate: "2026-04-22"
+
+- type: intentionTemplate
+  id: IntentionsSmokeSecondaryHiddenTimer
+  kind: secondary
+  nameLoc: intentions-smoke-secondary-hidden-name
+  summaryLoc: intentions-smoke-secondary-hidden-summary
+  descriptionLoc: intentions-smoke-secondary-hidden-description
+  hiddenLabelLoc: intentions-smoke-hidden-label
+  oocInfoLoc: intentions-smoke-ooc-info
+  copyableTextLoc: intentions-smoke-secondary-hidden-copy
+  defaultVisibility: hidden
+  color: "#DDBB66FF"
+  creationDate: "2026-04-22"
+
+- type: scenarioTemplate
+  id: IntentionsSmokeHappyPath
+  name: Smoke happy path with optional slot
+  category: IntentionsSmokeSocial
+  enabled: false
+  weight: 1
+  globalPredicates:
+  - scope: round
+    field: crewCount
+    operator: ">="
+    value: "1"
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsSmokePrimaryCoordinate
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+      note:
+        source: literal
+        value: smoke-happy-path
+  - slotId: helper
+    kind: secondary
+    intentionId: IntentionsSmokeSecondaryAssist
+    required: true
+    textParameterBindings:
+      helperName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: optionalObserver
+    kind: secondary
+    intentionId: IntentionsSmokeSecondaryAssist
+    required: false
+    candidatePredicates:
+    - scope: candidate
+      field: department
+      operator: sameAs
+      compareTo:
+        scope: slot
+        slotId: owner
+        field: department
+    textParameterBindings:
+      helperName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsSmokeSameActor
+  name: Smoke same actor scenario
+  category: IntentionsSmokeSocial
+  enabled: false
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsSmokePrimaryCoordinate
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: echo
+    kind: secondary
+    intentionId: IntentionsSmokeSecondaryAssist
+    required: true
+    allowSameActorAs: [owner]
+    textParameterBindings:
+      helperName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+
+- type: scenarioTemplate
+  id: IntentionsSmokeHiddenTimer
+  name: Smoke hidden timer scenario
+  category: IntentionsSmokeSocial
+  enabled: false
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsSmokePrimaryCoordinate
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      stationName:
+        source: round
+        field: stationName
+  - slotId: hiddenHelper
+    kind: secondary
+    intentionId: IntentionsSmokeSecondaryHiddenTimer
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+    textParameterBindings:
+      helperName:
+        source: self
+        field: characterName
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      stationName:
+        source: round
+        field: stationName

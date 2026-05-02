@@ -1,0 +1,724 @@
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo01
+  name: "Personal Solo 01"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo01Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-solo-01-сохранить-репутацию
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo02
+  name: "Personal Solo 02"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo02Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-solo-02-держать-обет-без-ругани
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo03
+  name: "Personal Solo 03"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo03Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: species
+        operator: "equals"
+        value: "Human"
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-solo-03-рискнуть-странной-едой
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo04
+  name: "Personal Solo 04"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo04Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-solo-04-спрятать-личный-дневник
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo05
+  name: "Personal Solo 05"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo05Owner
+    required: true
+    textParameterBindings:
+      selfName:
+        source: self
+        field: characterName
+      selfJob:
+        source: self
+        field: job
+      selfDepartment:
+        source: self
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-solo-05-раздать-добрые-комплименты
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo06
+  name: "Personal Solo 06"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: age
+        operator: ">="
+        value: "30"
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo07
+  name: "Personal Solo 07"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo07Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo08
+  name: "Personal Solo 08"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo08Owner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo09
+  name: "Personal Solo 09"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo09Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: traits
+        operator: "contains"
+        value: "SocialAnxiety"
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalSolo10
+  name: "Personal Solo 10"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalSolo10Owner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo01
+  name: "Personal Duo 01"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo01Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-01-доверить-личный-секрет
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo01Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-01-выслушать-секрет
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo02
+  name: "Personal Duo 02"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo02Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-02-попросить-моральную-опору
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo02Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-02-поддержать-собеседника
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo03
+  name: "Personal Duo 03"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo03Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-03-обменяться-историями
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo03Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: species
+        operator: "equals"
+        value: "Human"
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-03-поделиться-историей
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo04
+  name: "Personal Duo 04"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo04Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-04-провести-ритуал-удачи
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo04Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-04-поддержать-ритуал-удачи
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo05
+  name: "Personal Duo 05"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo05Owner
+    required: true
+    textParameterBindings:
+      ownerName:
+        source: self
+        field: characterName
+      ownerJob:
+        source: self
+        field: job
+      ownerDepartment:
+        source: self
+        field: department
+      partnerName:
+        source: slot
+        slotId: partner
+        field: characterName
+      partnerJob:
+        source: slot
+        slotId: partner
+        field: job
+      partnerDepartment:
+        source: slot
+        slotId: partner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-05-найти-свидетеля-конфуза
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo05Partner
+    required: true
+    textParameterBindings:
+      partnerName:
+        source: self
+        field: characterName
+      partnerJob:
+        source: self
+        field: job
+      partnerDepartment:
+        source: self
+        field: department
+      ownerName:
+        source: slot
+        slotId: owner
+        field: characterName
+      ownerJob:
+        source: slot
+        slotId: owner
+        field: job
+      ownerDepartment:
+        source: slot
+        slotId: owner
+        field: department
+      stationName:
+        source: round
+        field: stationName
+      stationTime:
+        source: round
+        field: stationTime
+      note:
+        source: literal
+        value: personal-duo-05-вспомнить-старый-конфуз
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo06
+  name: "Personal Duo 06"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo06Owner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: age
+        operator: ">="
+        value: "35"
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo06Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo07
+  name: "Personal Duo 07"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo07Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo07Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo08
+  name: "Personal Duo 08"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo08Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo08Partner
+    required: true
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo09
+  name: "Personal Duo 09"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo09Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo09Partner
+    required: true
+    candidatePredicates:
+      - scope: candidate
+        field: traits
+        operator: "contains"
+        value: "SocialAnxiety"
+
+- type: scenarioTemplate
+  id: IntentionsExamplePersonalDuo10
+  name: "Personal Duo 10"
+  category: personal
+  enabled: true
+  weight: 1
+  entries:
+  - slotId: owner
+    kind: primary
+    intentionId: IntentionsExamplePersonalDuo10Owner
+    required: true
+  - slotId: partner
+    kind: secondary
+    intentionId: IntentionsExamplePersonalDuo10Partner
+    required: true
+    visibilityOverride:
+      type: hidden
+      reveal:
+        type: timer
+        minutes: 5

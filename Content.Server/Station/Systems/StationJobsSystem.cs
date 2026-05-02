@@ -296,6 +296,24 @@ public sealed partial class StationJobsSystem : EntitySystem
         return jobsComponent.PlayerJobs.Remove(userId);
     }
 
+    /// <summary>
+    /// Returns whether a player currently occupies the given job slot on any station.
+    /// </summary>
+    public bool PlayerHoldsJobOnAnyStation(NetUserId userId, ProtoId<JobPrototype> jobPrototypeId)
+    {
+        var query = EntityQueryEnumerator<StationJobsComponent>();
+        while (query.MoveNext(out _, out var stationJobs))
+        {
+            if (!stationJobs.PlayerJobs.TryGetValue(userId, out var jobs))
+                continue;
+
+            if (jobs.Contains(jobPrototypeId))
+                return true;
+        }
+
+        return false;
+    }
+
     /// <inheritdoc cref="TrySetJobSlot(Robust.Shared.GameObjects.EntityUid,string,int,bool,Content.Server.Station.Components.StationJobsComponent?)"/>
     /// <param name="station">Station to adjust the job slot on.</param>
     /// <param name="jobPrototype">Job prototype to adjust.</param>
