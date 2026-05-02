@@ -160,8 +160,8 @@ public sealed class RoundFacts
     {
         return values?
             .Where(value => !string.IsNullOrWhiteSpace(value))
-            .Distinct(StringComparer.Ordinal)
-            .OrderBy(value => value, StringComparer.Ordinal)
+            .Distinct(EqualityComparer<string>.Default)
+            .OrderBy(value => value, Comparer<string>.Default)
             .ToImmutableArray() ?? ImmutableArray<string>.Empty;
     }
 }
@@ -184,8 +184,8 @@ public sealed class AntagSummary
         TotalCount = totalCount;
         GameModeAntagCount = gameModeAntagCount;
         GhostRoleAntagCount = ghostRoleAntagCount;
-        ByRole = byRole ?? ImmutableDictionary<string, int>.Empty.WithComparers(StringComparer.Ordinal);
-        ByObjectiveType = byObjectiveType ?? ImmutableDictionary<string, int>.Empty.WithComparers(StringComparer.Ordinal);
+        ByRole = byRole ?? ImmutableDictionary<string, int>.Empty.WithComparers(EqualityComparer<string>.Default);
+        ByObjectiveType = byObjectiveType ?? ImmutableDictionary<string, int>.Empty.WithComparers(EqualityComparer<string>.Default);
     }
 
     /// <summary>
@@ -344,8 +344,8 @@ public sealed class CandidateFacts
     {
         return values?
             .Where(value => !string.IsNullOrWhiteSpace(value))
-            .Distinct(StringComparer.Ordinal)
-            .OrderBy(value => value, StringComparer.Ordinal)
+            .Distinct(EqualityComparer<string>.Default)
+            .OrderBy(value => value, Comparer<string>.Default)
             .ToImmutableArray() ?? ImmutableArray<string>.Empty;
     }
 }

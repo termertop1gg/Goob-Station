@@ -29,7 +29,7 @@ public static class IntentionsPredicateSchema
     /// </summary>
     public static readonly ImmutableHashSet<string> Scopes =
         ImmutableHashSet.CreateRange(
-            StringComparer.Ordinal,
+            EqualityComparer<string>.Default,
             new[]
             {
                 RoundScope,
@@ -41,7 +41,7 @@ public static class IntentionsPredicateSchema
     /// </summary>
     public static readonly ImmutableHashSet<string> Operators =
         ImmutableHashSet.CreateRange(
-            StringComparer.Ordinal,
+            EqualityComparer<string>.Default,
             new[]
             {
                 "equals",
@@ -63,7 +63,7 @@ public static class IntentionsPredicateSchema
     /// Supported round-level fields and their runtime value types.
     /// </summary>
     public static readonly ImmutableDictionary<string, PredicateFieldType> RoundFields =
-        ImmutableDictionary.CreateRange(StringComparer.Ordinal, new Dictionary<string, PredicateFieldType>
+        ImmutableDictionary.CreateRange(EqualityComparer<string>.Default, new Dictionary<string, PredicateFieldType>
         {
             ["gameMode"] = PredicateFieldType.String,
             ["stationTime"] = PredicateFieldType.TimeSpan,
@@ -81,7 +81,7 @@ public static class IntentionsPredicateSchema
     /// Supported candidate-level fields and their runtime value types.
     /// </summary>
     public static readonly ImmutableDictionary<string, PredicateFieldType> CandidateFields =
-        ImmutableDictionary.CreateRange(StringComparer.Ordinal, new Dictionary<string, PredicateFieldType>
+        ImmutableDictionary.CreateRange(EqualityComparer<string>.Default, new Dictionary<string, PredicateFieldType>
         {
             ["job"] = PredicateFieldType.String,
             ["department"] = PredicateFieldType.String,

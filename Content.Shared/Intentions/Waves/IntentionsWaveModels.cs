@@ -26,12 +26,12 @@ public sealed class IntentionsStartWaveRequest
         Seed = seed;
         AssignedScenarioIds = assignedScenarioIds?
             .Where(id => !string.IsNullOrWhiteSpace(id))
-            .ToImmutableHashSet(StringComparer.Ordinal)
-            ?? ImmutableHashSet<string>.Empty.WithComparer(StringComparer.Ordinal);
+            .ToImmutableHashSet(EqualityComparer<string>.Default)
+            ?? ImmutableHashSet<string>.Empty.WithComparer(EqualityComparer<string>.Default);
         AssignedPrimaryByMind = assignedPrimaryByMind?
             .ToImmutableDictionary(
                 pair => pair.Key,
-                pair => (IReadOnlyDictionary<string, int>) pair.Value.ToImmutableDictionary(item => item.Key, item => item.Value, StringComparer.Ordinal))
+                pair => (IReadOnlyDictionary<string, int>) pair.Value.ToImmutableDictionary(item => item.Key, item => item.Value, EqualityComparer<string>.Default))
             ?? ImmutableDictionary<EntityUid, IReadOnlyDictionary<string, int>>.Empty;
     }
 
@@ -156,7 +156,7 @@ public sealed class DistributionWaveContext
         {
             foreach (var (mindId, counts) in assignedPrimaryByMind)
             {
-                AssignedPrimaryByMind[mindId] = new Dictionary<string, int>(counts, StringComparer.Ordinal);
+                AssignedPrimaryByMind[mindId] = new Dictionary<string, int>(counts, EqualityComparer<string>.Default);
             }
         }
     }
@@ -214,12 +214,12 @@ public sealed class DistributionWaveContext
     /// <summary>
     /// Per-category mutable state tracked while the wave runs.
     /// </summary>
-    public Dictionary<string, CategoryWaveState> CategoryStateById { get; } = new(StringComparer.Ordinal);
+    public Dictionary<string, CategoryWaveState> CategoryStateById { get; } = new(EqualityComparer<string>.Default);
 
     /// <summary>
     /// Scenario template ids reserved before or during the wave.
     /// </summary>
-    public HashSet<string> AssignedScenarioIds { get; } = new(StringComparer.Ordinal);
+    public HashSet<string> AssignedScenarioIds { get; } = new(EqualityComparer<string>.Default);
 
     /// <summary>
     /// Primary ownership counters carried through the wave.
@@ -335,12 +335,12 @@ public sealed class CategoryWaveState
     /// <summary>
     /// Scenario template ids rejected for this wave.
     /// </summary>
-    public HashSet<string> RejectedScenarioIds { get; } = new(StringComparer.Ordinal);
+    public HashSet<string> RejectedScenarioIds { get; } = new(EqualityComparer<string>.Default);
 
     /// <summary>
     /// Diagnostic reject counters grouped by reason code.
     /// </summary>
-    public Dictionary<string, int> RejectCounters { get; } = new(StringComparer.Ordinal);
+    public Dictionary<string, int> RejectCounters { get; } = new(EqualityComparer<string>.Default);
 }
 
 /// <summary>
@@ -376,7 +376,7 @@ public sealed class ScenarioBuildResult
         CategoryId = categoryId;
         IsSuccess = isSuccess;
         BuiltSlots = builtSlots.ToImmutableArray();
-        BuiltSlotsBySlotId = BuiltSlots.ToImmutableDictionary(slot => slot.SlotId, StringComparer.Ordinal);
+        BuiltSlotsBySlotId = BuiltSlots.ToImmutableDictionary(slot => slot.SlotId, EqualityComparer<string>.Default);
         SkippedOptionalSlots = skippedOptionalSlots.ToImmutableArray();
         FailureReason = failureReason;
         SlotRejectReasons = slotRejectReasons.ToImmutableArray();

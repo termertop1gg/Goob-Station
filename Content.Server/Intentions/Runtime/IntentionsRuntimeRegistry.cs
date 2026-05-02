@@ -17,7 +17,7 @@ public sealed class IntentionsRuntimeRegistry
     public Dictionary<EntityUid, HashSet<IntentionInstanceUid>> IntentionIdsByMind { get; } = new();
     public Dictionary<IntentionInstanceUid, ScenarioInstanceUid> ScenarioUidByIntentionUid { get; } = new();
     public Dictionary<(ScenarioInstanceUid ScenarioUid, string SlotId), ScenarioSlotAssignment> SlotAssignmentByScenarioAndSlot { get; } = new();
-    public HashSet<string> AssignedScenarioIds { get; } = new(StringComparer.Ordinal);
+    public HashSet<string> AssignedScenarioIds { get; } = new(EqualityComparer<string>.Default);
     public Dictionary<EntityUid, Dictionary<string, int>> AssignedPrimaryByMind { get; } = new();
     public Dictionary<int, DistributionWaveContext> WaveContextByWaveId { get; } = new();
     public SortedDictionary<TimeSpan, HashSet<IntentionInstanceUid>> HiddenIntentionsByRevealTime { get; } = new();
@@ -123,7 +123,7 @@ public sealed class IntentionsRuntimeRegistry
     {
         if (!AssignedPrimaryByMind.TryGetValue(mindId, out var byCategory))
         {
-            byCategory = new Dictionary<string, int>(StringComparer.Ordinal);
+            byCategory = new Dictionary<string, int>(EqualityComparer<string>.Default);
             AssignedPrimaryByMind[mindId] = byCategory;
         }
 

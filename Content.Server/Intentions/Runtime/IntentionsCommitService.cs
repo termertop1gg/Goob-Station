@@ -154,7 +154,7 @@ public sealed class IntentionsCommitService
         if (!build.BuiltSlotsBySlotId.TryGetValue("owner", out var ownerSlot))
             return Fail(out failureReason, "missing-owner-slot");
 
-        var entriesBySlot = template.Entries.ToDictionary(entry => entry.SlotId, StringComparer.Ordinal);
+        var entriesBySlot = template.Entries.ToDictionary(entry => entry.SlotId, EqualityComparer<string>.Default);
         foreach (var slot in build.BuiltSlots)
         {
             if (!entriesBySlot.ContainsKey(slot.SlotId))
@@ -242,7 +242,7 @@ public sealed class IntentionsCommitService
         out Dictionary<string, string> parameters,
         out string failureReason)
     {
-        parameters = new Dictionary<string, string>(StringComparer.Ordinal);
+        parameters = new Dictionary<string, string>(EqualityComparer<string>.Default);
         failureReason = string.Empty;
 
         if (!build.BuiltSlotsBySlotId.TryGetValue(entry.SlotId, out var selfSlot))

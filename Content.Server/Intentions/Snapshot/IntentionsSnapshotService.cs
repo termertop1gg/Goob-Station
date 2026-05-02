@@ -42,7 +42,7 @@ public sealed class IntentionsSnapshotService : EntitySystem
         "SubvertedSilicon",
         "MothershipCore",
         "Xenoborg",
-    }.ToFrozenSet(StringComparer.Ordinal);
+    }.ToFrozenSet(EqualityComparer<string>.Default);
 
     [Dependency] private readonly GameTicker _gameTicker = default!;
     [Dependency] private readonly HolidaySystem _holidays = default!;
@@ -159,8 +159,8 @@ public sealed class IntentionsSnapshotService : EntitySystem
         var totalCount = 0;
         var gameModeAntagCount = 0;
         var ghostRoleAntagCount = 0;
-        var byRole = new Dictionary<string, int>(StringComparer.Ordinal);
-        var byObjectiveType = new Dictionary<string, int>(StringComparer.Ordinal);
+        var byRole = new Dictionary<string, int>(EqualityComparer<string>.Default);
+        var byObjectiveType = new Dictionary<string, int>(EqualityComparer<string>.Default);
 
         var query = EntityQueryEnumerator<MindComponent>();
         while (query.MoveNext(out _, out var mind))
@@ -189,8 +189,8 @@ public sealed class IntentionsSnapshotService : EntitySystem
             totalCount,
             gameModeAntagCount,
             ghostRoleAntagCount,
-            byRole.ToImmutableDictionary(StringComparer.Ordinal),
-            byObjectiveType.ToImmutableDictionary(StringComparer.Ordinal));
+            byRole.ToImmutableDictionary(EqualityComparer<string>.Default),
+            byObjectiveType.ToImmutableDictionary(EqualityComparer<string>.Default));
     }
 
     /// <summary>
@@ -243,7 +243,7 @@ public sealed class IntentionsSnapshotService : EntitySystem
             return _gameTicker.GetPlayerProfile(session)
                 .TraitPreferences
                 .Select(trait => trait.Id)
-                .OrderBy(trait => trait, StringComparer.Ordinal)
+                .OrderBy(trait => trait, Comparer<string>.Default)
                 .ToImmutableArray();
         }
         catch
@@ -287,7 +287,7 @@ public sealed class IntentionsSnapshotService : EntitySystem
         }
 
         var orderedRoles = roles
-            .OrderBy(role => role, StringComparer.Ordinal)
+            .OrderBy(role => role, Comparer<string>.Default)
             .ToImmutableArray();
         var isGhostRoleAntag = hasGhostRoleMarker || IsGhostRoleAntagOverride(orderedRoles);
         return (orderedRoles, isGhostRoleAntag);
@@ -329,7 +329,7 @@ public sealed class IntentionsSnapshotService : EntitySystem
         return _station.GetStationNames()
             .Select(station => station.Name)
             .Where(name => !string.IsNullOrWhiteSpace(name))
-            .OrderBy(name => name, StringComparer.Ordinal)
+            .OrderBy(name => name, Comparer<string>.Default)
             .FirstOrDefault() ?? "station";
     }
 
@@ -340,8 +340,8 @@ public sealed class IntentionsSnapshotService : EntitySystem
     {
         return _holidays.GetCurrentHolidays()
             .Select(holiday => holiday.ID)
-            .Distinct(StringComparer.Ordinal)
-            .OrderBy(holiday => holiday, StringComparer.Ordinal)
+            .Distinct(EqualityComparer<string>.Default)
+            .OrderBy(holiday => holiday, Comparer<string>.Default)
             .ToImmutableArray();
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using Content.Server.Intentions.Runtime;
 using Content.Shared.Intentions.Prototypes;
@@ -18,7 +19,7 @@ public sealed class IntentionsQueryService
     private const string DefaultOocInfoLoc = "default-ooc-info";
     private static readonly SpriteSpecifier HiddenIcon = new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/VerbIcons/lock.svg.192dpi.png"));
 
-    private static readonly Dictionary<string, string> EmptyParameters = new(StringComparer.Ordinal);
+    private static readonly Dictionary<string, string> EmptyParameters = new(EqualityComparer<string>.Default);
 
     private readonly Func<string, IReadOnlyDictionary<string, string>, string?> _locResolver;
 
@@ -71,7 +72,7 @@ public sealed class IntentionsQueryService
             .OrderBy(entry => entry.ScenarioStatusRank)
             .ThenBy(entry => entry.HiddenRank)
             .ThenByDescending(entry => entry.CategoryPriority)
-            .ThenBy(entry => entry.CategorySortName, StringComparer.Ordinal)
+            .ThenBy(entry => entry.CategorySortName, Comparer<string>.Default)
             .ThenBy(entry => entry.Card.AssignedAtRoundTime)
             .ThenBy(entry => entry.Card.IntentionUid)
             .Select(entry => entry.Card)
@@ -81,7 +82,7 @@ public sealed class IntentionsQueryService
             .OrderBy(entry => entry.ScenarioStatusRank)
             .ThenBy(entry => entry.HiddenRank)
             .ThenByDescending(entry => entry.CategoryPriority)
-            .ThenBy(entry => entry.CategorySortName, StringComparer.Ordinal)
+            .ThenBy(entry => entry.CategorySortName, Comparer<string>.Default)
             .ThenBy(entry => entry.Card.AssignedAtRoundTime)
             .ThenBy(entry => entry.Card.IntentionUid)
             .Select(entry => entry.Card)
@@ -125,8 +126,8 @@ public sealed class IntentionsQueryService
             ? BuildHiddenText(template, revealText)
             : BuildVisibleText(template, intention);
         var resolvedTextParameters = redacted
-            ? new Dictionary<string, string>(StringComparer.Ordinal)
-            : new Dictionary<string, string>(intention.ResolvedTextParameters, StringComparer.Ordinal);
+            ? new Dictionary<string, string>(EqualityComparer<string>.Default)
+            : new Dictionary<string, string>(intention.ResolvedTextParameters, EqualityComparer<string>.Default);
         var author = redacted
             ? ResolveUiLoc("intentions-ui-author-hidden", "Hidden")
             : string.IsNullOrWhiteSpace(template?.Author)
@@ -246,7 +247,7 @@ public sealed class IntentionsQueryService
         return ResolveUiLoc(
             "intentions-ui-hidden-reveal-timer",
             $"Reveals in {remaining.ToString(@"hh\:mm\:ss")}",
-            new Dictionary<string, string>(StringComparer.Ordinal)
+            new Dictionary<string, string>(EqualityComparer<string>.Default)
             {
                 ["time"] = remaining.ToString(@"hh\:mm\:ss"),
             });

@@ -339,7 +339,7 @@ public sealed class IntentionsWaveOrchestrator
         var declarationOrder = OrderedIds(catalog.ValidCategoryOrder, catalog.ValidCategories.Keys);
         var orderIndex = declarationOrder
             .Select((id, index) => (id, index))
-            .ToDictionary(pair => pair.id, pair => pair.index, StringComparer.Ordinal);
+            .ToDictionary(pair => pair.id, pair => pair.index, EqualityComparer<string>.Default);
 
         return declarationOrder
             .Where(catalog.ValidCategories.ContainsKey)
@@ -364,7 +364,7 @@ public sealed class IntentionsWaveOrchestrator
     private static List<string> OrderedIds(IReadOnlyList<string> explicitOrder, IEnumerable<string> fallbackIds)
     {
         if (explicitOrder.Count > 0)
-            return explicitOrder.Concat(fallbackIds.Where(id => !explicitOrder.Contains(id, StringComparer.Ordinal))).ToList();
+            return explicitOrder.Concat(fallbackIds.Where(id => !explicitOrder.Contains(id, EqualityComparer<string>.Default))).ToList();
 
         return fallbackIds.ToList();
     }
@@ -423,7 +423,7 @@ public sealed class IntentionsWaveOrchestrator
     {
         if (!context.AssignedPrimaryByMind.TryGetValue(mindId, out var byCategory))
         {
-            byCategory = new Dictionary<string, int>(StringComparer.Ordinal);
+            byCategory = new Dictionary<string, int>(EqualityComparer<string>.Default);
             context.AssignedPrimaryByMind[mindId] = byCategory;
         }
 
@@ -474,11 +474,11 @@ public sealed class IntentionsWaveOrchestrator
         IntentionsRuntimeRegistry? registry)
     {
         if (registry is null)
-            return assignedScenarioIds.ToImmutableHashSet(StringComparer.Ordinal);
+            return assignedScenarioIds.ToImmutableHashSet(EqualityComparer<string>.Default);
 
         return assignedScenarioIds
             .Concat(registry.AssignedScenarioIds)
-            .ToImmutableHashSet(StringComparer.Ordinal);
+            .ToImmutableHashSet(EqualityComparer<string>.Default);
     }
 
     /// <summary>
@@ -491,7 +491,7 @@ public sealed class IntentionsWaveOrchestrator
         var result = new Dictionary<EntityUid, Dictionary<string, int>>();
 
         foreach (var (mindId, counts) in assignedPrimaryByMind)
-            result[mindId] = new Dictionary<string, int>(counts, StringComparer.Ordinal);
+            result[mindId] = new Dictionary<string, int>(counts, EqualityComparer<string>.Default);
 
         if (registry is not null)
         {
@@ -499,7 +499,7 @@ public sealed class IntentionsWaveOrchestrator
             {
                 if (!result.TryGetValue(mindId, out var merged))
                 {
-                    merged = new Dictionary<string, int>(StringComparer.Ordinal);
+                    merged = new Dictionary<string, int>(EqualityComparer<string>.Default);
                     result[mindId] = merged;
                 }
 
@@ -520,7 +520,7 @@ public sealed class IntentionsWaveOrchestrator
     {
         return registry.AssignedPrimaryByMind.ToDictionary(
             pair => pair.Key,
-            pair => (IReadOnlyDictionary<string, int>) new Dictionary<string, int>(pair.Value, StringComparer.Ordinal));
+            pair => (IReadOnlyDictionary<string, int>) new Dictionary<string, int>(pair.Value, EqualityComparer<string>.Default));
     }
 
     /// <summary>

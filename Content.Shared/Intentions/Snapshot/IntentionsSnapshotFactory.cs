@@ -42,7 +42,7 @@ public static class IntentionsSnapshotFactory
 
         // Candidate order is fixed up front so every later phase observes the same deterministic pool.
         var normalizedCandidates = candidateList
-            .OrderBy(candidate => candidate.UserId.ToString(), StringComparer.Ordinal)
+            .OrderBy(candidate => candidate.UserId.ToString(), Comparer<string>.Default)
             .ThenBy(candidate => candidate.MindId)
             .ToImmutableArray();
 
@@ -69,13 +69,13 @@ public static class IntentionsSnapshotFactory
     {
         var byRole = candidates
             .SelectMany(candidate => candidate.AntagRoles)
-            .GroupBy(role => role, StringComparer.Ordinal)
-            .ToImmutableDictionary(group => group.Key, group => group.Count(), StringComparer.Ordinal);
+            .GroupBy(role => role, EqualityComparer<string>.Default)
+            .ToImmutableDictionary(group => group.Key, group => group.Count(), EqualityComparer<string>.Default);
 
         var byObjectiveType = candidates
             .SelectMany(candidate => candidate.AntagObjectiveTypes)
-            .GroupBy(objectiveType => objectiveType, StringComparer.Ordinal)
-            .ToImmutableDictionary(group => group.Key, group => group.Count(), StringComparer.Ordinal);
+            .GroupBy(objectiveType => objectiveType, EqualityComparer<string>.Default)
+            .ToImmutableDictionary(group => group.Key, group => group.Count(), EqualityComparer<string>.Default);
 
         var antags = candidates.Where(candidate => candidate.HasAntagRole).ToList();
 

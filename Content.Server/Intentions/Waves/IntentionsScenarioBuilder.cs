@@ -39,9 +39,9 @@ public sealed class IntentionsScenarioBuilder
         var builtSlots = new List<ScenarioSlotBuildResult>();
         var skippedOptionalSlots = new List<string>();
         var slotRejectReasons = new List<SlotRejectReason>();
-        var selectedBySlotId = new Dictionary<string, CandidateFacts>(StringComparer.Ordinal);
+        var selectedBySlotId = new Dictionary<string, CandidateFacts>(EqualityComparer<string>.Default);
         var reservedMindIds = new HashSet<EntityUid>();
-        var entriesBySlot = template.Entries.ToDictionary(entry => entry.SlotId, StringComparer.Ordinal);
+        var entriesBySlot = template.Entries.ToDictionary(entry => entry.SlotId, EqualityComparer<string>.Default);
 
         if (!TryValidateSlotBuildOrder(scenario, entriesBySlot, out var orderFailure))
             return Failure(orderFailure);
@@ -154,7 +154,7 @@ public sealed class IntentionsScenarioBuilder
             return false;
         }
 
-        if (scenario.SlotBuildOrder.Distinct(StringComparer.Ordinal).Count() != scenario.SlotBuildOrder.Count)
+        if (scenario.SlotBuildOrder.Distinct(EqualityComparer<string>.Default).Count() != scenario.SlotBuildOrder.Count)
         {
             failureReason = "missing-or-invalid-precomputed-build-order";
             return false;

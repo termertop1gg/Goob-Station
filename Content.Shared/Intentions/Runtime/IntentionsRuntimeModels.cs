@@ -388,7 +388,7 @@ public sealed class IntentionInstance
         IsHidden = isHidden;
         RevealMode = revealMode;
         RevealedAtRoundTime = revealedAtRoundTime;
-        ResolvedTextParameters = resolvedTextParameters.ToImmutableDictionary(StringComparer.Ordinal);
+        ResolvedTextParameters = resolvedTextParameters.ToImmutableDictionary(EqualityComparer<string>.Default);
         CopyableTextResolved = copyableTextResolved;
         FailureReason = failureReason;
     }

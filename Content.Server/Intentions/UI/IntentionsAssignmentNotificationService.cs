@@ -22,7 +22,7 @@ namespace Content.Server.Intentions.UI;
 /// </summary>
 public sealed class IntentionsAssignmentNotificationService
 {
-    private static readonly Dictionary<string, string> EmptyParameters = new(StringComparer.Ordinal);
+    private static readonly Dictionary<string, string> EmptyParameters = new(EqualityComparer<string>.Default);
 
     private readonly Func<string, IReadOnlyDictionary<string, string>, string?> _locResolver;
 
@@ -153,7 +153,7 @@ public sealed class IntentionsAssignmentNotificationService
 
     private string ResolveMessage(string locId, string fallback, int count, string names, int hiddenCount)
     {
-        var parameters = new Dictionary<string, string>(StringComparer.Ordinal)
+        var parameters = new Dictionary<string, string>(EqualityComparer<string>.Default)
         {
             ["count"] = count.ToString(CultureInfo.InvariantCulture),
             ["names"] = names,

@@ -53,9 +53,9 @@ public static class IntentionsTextHighlighting
         var values = parameters?
             .Values
             .Where(value => !string.IsNullOrWhiteSpace(value))
-            .Distinct(StringComparer.Ordinal)
+            .Distinct(EqualityComparer<string>.Default)
             .OrderByDescending(value => value.Length)
-            .ThenBy(value => value, StringComparer.Ordinal)
+            .ThenBy(value => value, Comparer<string>.Default)
             .ToArray()
             ?? Array.Empty<string>();
 

@@ -390,7 +390,7 @@ public sealed class IntentionsRuntimeAdminService
     /// </summary>
     public static ImmutableArray<ForcedAssignmentSlotDescriptor> DescribeExplicitSlots(ValidatedScenarioTemplate scenario)
     {
-        var entriesBySlot = scenario.Template.Entries.ToDictionary(entry => entry.SlotId, StringComparer.Ordinal);
+        var entriesBySlot = scenario.Template.Entries.ToDictionary(entry => entry.SlotId, EqualityComparer<string>.Default);
         var builder = ImmutableArray.CreateBuilder<ForcedAssignmentSlotDescriptor>();
 
         foreach (var slotId in scenario.SlotBuildOrder)
@@ -434,9 +434,9 @@ public sealed class IntentionsRuntimeAdminService
         var builtSlots = new List<ScenarioSlotBuildResult>();
         var skippedOptionalSlots = new List<string>();
         var slotRejectReasons = new List<SlotRejectReason>();
-        var selectedBySlotId = new Dictionary<string, CandidateFacts>(StringComparer.Ordinal);
+        var selectedBySlotId = new Dictionary<string, CandidateFacts>(EqualityComparer<string>.Default);
         var reservedMindIds = new HashSet<EntityUid>();
-        var entriesBySlot = template.Entries.ToDictionary(entry => entry.SlotId, StringComparer.Ordinal);
+        var entriesBySlot = template.Entries.ToDictionary(entry => entry.SlotId, EqualityComparer<string>.Default);
 
         if (!TryValidateSlotBuildOrder(scenario, entriesBySlot, out var orderFailure))
         {
@@ -580,7 +580,7 @@ public sealed class IntentionsRuntimeAdminService
         if (scenario.SlotBuildOrder.Count == 0
             || scenario.SlotBuildOrder[0] != "owner"
             || scenario.SlotBuildOrder.Any(slotId => !entriesBySlot.ContainsKey(slotId))
-            || scenario.SlotBuildOrder.Distinct(StringComparer.Ordinal).Count() != scenario.SlotBuildOrder.Count)
+            || scenario.SlotBuildOrder.Distinct(EqualityComparer<string>.Default).Count() != scenario.SlotBuildOrder.Count)
         {
             failureReason = "missing-or-invalid-precomputed-build-order";
             return false;
@@ -694,7 +694,7 @@ public sealed class IntentionsRuntimeAdminService
             pair => (IReadOnlyDictionary<string, int>) pair.Value.ToImmutableDictionary(
                 item => item.Key,
                 item => item.Value,
-                StringComparer.Ordinal));
+                EqualityComparer<string>.Default));
     }
 
     /// <summary>
@@ -704,7 +704,7 @@ public sealed class IntentionsRuntimeAdminService
     {
         if (!context.AssignedPrimaryByMind.TryGetValue(mindId, out var byCategory))
         {
-            byCategory = new Dictionary<string, int>(StringComparer.Ordinal);
+            byCategory = new Dictionary<string, int>(EqualityComparer<string>.Default);
             context.AssignedPrimaryByMind[mindId] = byCategory;
         }
 

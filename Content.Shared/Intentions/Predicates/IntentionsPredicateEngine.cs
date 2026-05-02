@@ -376,7 +376,7 @@ public sealed class IntentionsPredicateEngine
     {
         return actual switch
         {
-            ImmutableArray<string> actualList when expected is string expectedString => actualList.Contains(expectedString, StringComparer.Ordinal),
+            ImmutableArray<string> actualList when expected is string expectedString => actualList.Contains(expectedString, EqualityComparer<string>.Default),
             string actualString when expected is string expectedString => actualString.Contains(expectedString, StringComparison.Ordinal),
             _ => false,
         };
