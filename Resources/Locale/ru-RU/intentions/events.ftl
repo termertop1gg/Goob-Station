@@ -5,31 +5,31 @@ intentions-example-events-solo-01-owner-name = Тайный Санта
 intentions-example-events-solo-01-owner-summary = Тайный Санта
 intentions-example-events-solo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Подготовить неожиданный подарок и красивую подачу. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-events-solo-01-owner-ooc = Это необязательное намерение категории «событийные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-events-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет подготовить неожиданный подарок и красивую подачу. Внутренняя метка: {$note}.
+intentions-example-events-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет подготовить неожиданный подарок и красивую подачу.
 
 intentions-example-events-solo-02-owner-name = Чужой день рождения
 intentions-example-events-solo-02-owner-summary = Чужой день рождения
 intentions-example-events-solo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Не дать маленькому празднику пройти совсем незамеченным. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-events-solo-02-owner-ooc = Это необязательное намерение категории «событийные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-events-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет не дать маленькому празднику пройти совсем незамеченным. Внутренняя метка: {$note}.
+intentions-example-events-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет не дать маленькому празднику пройти совсем незамеченным.
 
 intentions-example-events-solo-03-owner-name = Станционный День влюблённых
 intentions-example-events-solo-03-owner-summary = Станционный День влюблённых
 intentions-example-events-solo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Создать атмосферу неловкой, но тёплой романтики. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-events-solo-03-owner-ooc = Это необязательное намерение категории «событийные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-events-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет создать атмосферу неловкой, но тёплой романтики. Внутренняя метка: {$note}.
+intentions-example-events-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет создать атмосферу неловкой, но тёплой романтики.
 
 intentions-example-events-solo-04-owner-name = Конкурс костюмов
 intentions-example-events-solo-04-owner-summary = Конкурс костюмов
 intentions-example-events-solo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Подтолкнуть людей к маленькой тематической импровизации. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-events-solo-04-owner-ooc = Это необязательное намерение категории «событийные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-events-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет подтолкнуть людей к маленькой тематической импровизации. Внутренняя метка: {$note}.
+intentions-example-events-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет подтолкнуть людей к маленькой тематической импровизации.
 
 intentions-example-events-solo-05-owner-name = Памятный тост
 intentions-example-events-solo-05-owner-summary = Памятный тост
 intentions-example-events-solo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Найти повод и слова для короткого общего тоста. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-events-solo-05-owner-ooc = Это необязательное намерение категории «событийные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-events-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет найти повод и слова для короткого общего тоста. Внутренняя метка: {$note}.
+intentions-example-events-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет найти повод и слова для короткого общего тоста.
 
 intentions-example-events-solo-06-owner-name = Праздничная речь
 intentions-example-events-solo-06-owner-summary = Праздничная речь
@@ -66,61 +66,61 @@ intentions-example-events-duo-01-owner-name = Организатор и помо
 intentions-example-events-duo-01-owner-summary = Организатор и помощник
 intentions-example-events-duo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Взять на себя идею события и направлять партнёра. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-01-owner-ooc = Это необязательное парное намерение категории «событийные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-events-duo-01-owner-copy = Подсказка: {$ownerName} хочет взять на себя идею события и направлять партнёра. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-events-duo-01-owner-copy = Подсказка: {$ownerName} хочет взять на себя идею события и направлять партнёра. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-events-duo-01-partner-name = Помочь с организацией
 intentions-example-events-duo-01-partner-summary = Помочь с организацией
 intentions-example-events-duo-01-partner-description = На станции {$stationName} попробуйте разыграть сцену: Помогать событию состояться и не рассыпаться по дороге. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-01-partner-ooc = Это необязательное второстепенное намерение категории «событийные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-events-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы помогать событию состояться и не рассыпаться по дороге. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-events-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы помогать событию состояться и не рассыпаться по дороге. Помните о своей роли {$partnerJob}.
 
 intentions-example-events-duo-02-owner-name = Даритель и курьер
 intentions-example-events-duo-02-owner-summary = Даритель и курьер
 intentions-example-events-duo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Передать через партнёра значимый праздничный подарок. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-02-owner-ooc = Это необязательное парное намерение категории «событийные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-events-duo-02-owner-copy = Подсказка: {$ownerName} хочет передать через партнёра значимый праздничный подарок. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-events-duo-02-owner-copy = Подсказка: {$ownerName} хочет передать через партнёра значимый праздничный подарок. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-events-duo-02-partner-name = Тихо доставить подарок
 intentions-example-events-duo-02-partner-summary = Тихо доставить подарок
 intentions-example-events-duo-02-partner-description = На станции {$stationName} попробуйте разыграть сцену: Довести подарок адресату так, чтобы сохранить интригу. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-02-partner-ooc = Это необязательное второстепенное намерение категории «событийные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-events-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы довести подарок адресату так, чтобы сохранить интригу. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-events-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы довести подарок адресату так, чтобы сохранить интригу. Помните о своей роли {$partnerJob}.
 
 intentions-example-events-duo-03-owner-name = Ведущий и участник
 intentions-example-events-duo-03-owner-summary = Ведущий и участник
 intentions-example-events-duo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Дать короткому событию ритм и форму. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-03-owner-ooc = Это необязательное парное намерение категории «событийные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-events-duo-03-owner-copy = Подсказка: {$ownerName} хочет дать короткому событию ритм и форму. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-events-duo-03-owner-copy = Подсказка: {$ownerName} хочет дать короткому событию ритм и форму. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-events-duo-03-partner-name = Поддержать ведущего
 intentions-example-events-duo-03-partner-summary = Поддержать ведущего
 intentions-example-events-duo-03-partner-description = На станции {$stationName} попробуйте разыграть сцену: Подыграть ведущему и не дать сцене заглохнуть. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-03-partner-ooc = Это необязательное второстепенное намерение категории «событийные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-events-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы подыграть ведущему и не дать сцене заглохнуть. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-events-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы подыграть ведущему и не дать сцене заглохнуть. Помните о своей роли {$partnerJob}.
 
 intentions-example-events-duo-04-owner-name = Романтический посредник
 intentions-example-events-duo-04-owner-summary = Романтический посредник
 intentions-example-events-duo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Осторожно свести людей через партнёра или при его помощи. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-04-owner-ooc = Это необязательное парное намерение категории «событийные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-events-duo-04-owner-copy = Подсказка: {$ownerName} хочет осторожно свести людей через партнёра или при его помощи. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-events-duo-04-owner-copy = Подсказка: {$ownerName} хочет осторожно свести людей через партнёра или при его помощи. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-events-duo-04-partner-name = Ответить на посредничество
 intentions-example-events-duo-04-partner-summary = Ответить на посредничество
 intentions-example-events-duo-04-partner-description = На станции {$stationName} попробуйте разыграть сцену: Поддержать попытку деликатного романтического сближения. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-04-partner-ooc = Это необязательное второстепенное намерение категории «событийные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-events-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы поддержать попытку деликатного романтического сближения. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-events-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы поддержать попытку деликатного романтического сближения. Помните о своей роли {$partnerJob}.
 
 intentions-example-events-duo-05-owner-name = Подготовить сюрприз
 intentions-example-events-duo-05-owner-summary = Подготовить сюрприз
 intentions-example-events-duo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Держать праздничную задумку в секрете до удачного момента. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-05-owner-ooc = Это необязательное парное намерение категории «событийные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-events-duo-05-owner-copy = Подсказка: {$ownerName} хочет держать праздничную задумку в секрете до удачного момента. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-events-duo-05-owner-copy = Подсказка: {$ownerName} хочет держать праздничную задумку в секрете до удачного момента. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-events-duo-05-partner-name = Скрыть детали сюрприза
 intentions-example-events-duo-05-partner-summary = Скрыть детали сюрприза
 intentions-example-events-duo-05-partner-description = На станции {$stationName} попробуйте разыграть сцену: Помочь сохранить интригу и вовремя раскрыть её. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-events-duo-05-partner-ooc = Это необязательное второстепенное намерение категории «событийные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-events-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы помочь сохранить интригу и вовремя раскрыть её. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-events-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы помочь сохранить интригу и вовремя раскрыть её. Помните о своей роли {$partnerJob}.
 
 intentions-example-events-duo-06-owner-name = Совместный розыгрыш
 intentions-example-events-duo-06-owner-summary = Совместный розыгрыш

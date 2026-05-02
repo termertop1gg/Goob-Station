@@ -5,31 +5,31 @@ intentions-example-antag-solo-01-owner-name = Склонить к сотрудн
 intentions-example-antag-solo-01-owner-summary = Склонить к сотрудничеству
 intentions-example-antag-solo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Попробовать мягко подтолкнуть кого-то к сомнительному сотрудничеству. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-antag-solo-01-owner-ooc = Это необязательное намерение категории «антагонистические». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-antag-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет попробовать мягко подтолкнуть кого-то к сомнительному сотрудничеству. Внутренняя метка: {$note}.
+intentions-example-antag-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет попробовать мягко подтолкнуть кого-то к сомнительному сотрудничеству.
 
 intentions-example-antag-solo-02-owner-name = Вбросить дезинформацию
 intentions-example-antag-solo-02-owner-summary = Вбросить дезинформацию
 intentions-example-antag-solo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Запустить ложную версию событий и посмотреть, кто в неё поверит. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-antag-solo-02-owner-ooc = Это необязательное намерение категории «антагонистические». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-antag-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет запустить ложную версию событий и посмотреть, кто в неё поверит. Внутренняя метка: {$note}.
+intentions-example-antag-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет запустить ложную версию событий и посмотреть, кто в неё поверит.
 
 intentions-example-antag-solo-03-owner-name = Подготовить предательство
 intentions-example-antag-solo-03-owner-summary = Подготовить предательство
 intentions-example-antag-solo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Создать условия, в которых чьё-то доверие будет использовано против него. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-antag-solo-03-owner-ooc = Это необязательное намерение категории «антагонистические». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-antag-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет создать условия, в которых чьё-то доверие будет использовано против него. Внутренняя метка: {$note}.
+intentions-example-antag-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет создать условия, в которых чьё-то доверие будет использовано против него.
 
 intentions-example-antag-solo-04-owner-name = Копировать чужой голос
 intentions-example-antag-solo-04-owner-summary = Копировать чужой голос
 intentions-example-antag-solo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Отыграть сбор манеры речи и деталей, нужных для подделки. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-antag-solo-04-owner-ooc = Это необязательное намерение категории «антагонистические». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-antag-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет отыграть сбор манеры речи и деталей, нужных для подделки. Внутренняя метка: {$note}.
+intentions-example-antag-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет отыграть сбор манеры речи и деталей, нужных для подделки.
 
 intentions-example-antag-solo-05-owner-name = Создать опасную зависимость
 intentions-example-antag-solo-05-owner-summary = Создать опасную зависимость
 intentions-example-antag-solo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Сделать так, чтобы кто-то начал всё чаще искать именно вас. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-antag-solo-05-owner-ooc = Это необязательное намерение категории «антагонистические». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-antag-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет сделать так, чтобы кто-то начал всё чаще искать именно вас. Внутренняя метка: {$note}.
+intentions-example-antag-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет сделать так, чтобы кто-то начал всё чаще искать именно вас.
 
 intentions-example-antag-solo-06-owner-name = Собрать компромат
 intentions-example-antag-solo-06-owner-summary = Собрать компромат
@@ -66,61 +66,61 @@ intentions-example-antag-duo-01-owner-name = Обработчик и цель
 intentions-example-antag-duo-01-owner-summary = Обработчик и цель
 intentions-example-antag-duo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Долго и мягко обрабатывать партнёра под нужный вам вывод. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-01-owner-ooc = Это необязательное парное намерение категории «антагонистические». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-antag-duo-01-owner-copy = Подсказка: {$ownerName} хочет долго и мягко обрабатывать партнёра под нужный вам вывод. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-antag-duo-01-owner-copy = Подсказка: {$ownerName} хочет долго и мягко обрабатывать партнёра под нужный вам вывод. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-antag-duo-01-partner-name = Поддаться обработке
 intentions-example-antag-duo-01-partner-summary = Поддаться обработке
 intentions-example-antag-duo-01-partner-description = На станции {$stationName} попробуйте разыграть сцену: Отыграть, как на вас постепенно влияет чужое давление. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-01-partner-ooc = Это необязательное второстепенное намерение категории «антагонистические». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-antag-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы отыграть, как на вас постепенно влияет чужое давление. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-antag-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы отыграть, как на вас постепенно влияет чужое давление. Помните о своей роли {$partnerJob}.
 
 intentions-example-antag-duo-02-owner-name = Агент и наблюдатель
 intentions-example-antag-duo-02-owner-summary = Агент и наблюдатель
 intentions-example-antag-duo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Вести активную игру, пока партнёр собирает для вас реакции. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-02-owner-ooc = Это необязательное парное намерение категории «антагонистические». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-antag-duo-02-owner-copy = Подсказка: {$ownerName} хочет вести активную игру, пока партнёр собирает для вас реакции. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-antag-duo-02-owner-copy = Подсказка: {$ownerName} хочет вести активную игру, пока партнёр собирает для вас реакции. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-antag-duo-02-partner-name = Тихо наблюдать за целью
 intentions-example-antag-duo-02-partner-summary = Тихо наблюдать за целью
 intentions-example-antag-duo-02-partner-description = На станции {$stationName} попробуйте разыграть сцену: Замечать и передавать нужные детали, не вылезая на первый план. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-02-partner-ooc = Это необязательное второстепенное намерение категории «антагонистические». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-antag-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы замечать и передавать нужные детали, не вылезая на первый план. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-antag-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы замечать и передавать нужные детали, не вылезая на первый план. Помните о своей роли {$partnerJob}.
 
 intentions-example-antag-duo-03-owner-name = Инсайдер и вербовщик
 intentions-example-antag-duo-03-owner-summary = Инсайдер и вербовщик
 intentions-example-antag-duo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Использовать внутреннюю информацию ради мягкой вербовки. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-03-owner-ooc = Это необязательное парное намерение категории «антагонистические». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-antag-duo-03-owner-copy = Подсказка: {$ownerName} хочет использовать внутреннюю информацию ради мягкой вербовки. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-antag-duo-03-owner-copy = Подсказка: {$ownerName} хочет использовать внутреннюю информацию ради мягкой вербовки. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-antag-duo-03-partner-name = Попробовать завербовать
 intentions-example-antag-duo-03-partner-summary = Попробовать завербовать
 intentions-example-antag-duo-03-partner-description = На станции {$stationName} попробуйте разыграть сцену: Нащупать точку, через которую человека можно втянуть глубже. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-03-partner-ooc = Это необязательное второстепенное намерение категории «антагонистические». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-antag-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы нащупать точку, через которую человека можно втянуть глубже. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-antag-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы нащупать точку, через которую человека можно втянуть глубже. Помните о своей роли {$partnerJob}.
 
 intentions-example-antag-duo-04-owner-name = Приманка и удар
 intentions-example-antag-duo-04-owner-summary = Приманка и удар
 intentions-example-antag-duo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Создать удобный повод, чтобы партнёр завершил задумку. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-04-owner-ooc = Это необязательное парное намерение категории «антагонистические». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-antag-duo-04-owner-copy = Подсказка: {$ownerName} хочет создать удобный повод, чтобы партнёр завершил задумку. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-antag-duo-04-owner-copy = Подсказка: {$ownerName} хочет создать удобный повод, чтобы партнёр завершил задумку. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-antag-duo-04-partner-name = Подготовить решающий удар
 intentions-example-antag-duo-04-partner-summary = Подготовить решающий удар
 intentions-example-antag-duo-04-partner-description = На станции {$stationName} попробуйте разыграть сцену: Быть тем, кто доводит уже разогретую схему до конца. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-04-partner-ooc = Это необязательное второстепенное намерение категории «антагонистические». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-antag-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы быть тем, кто доводит уже разогретую схему до конца. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-antag-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы быть тем, кто доводит уже разогретую схему до конца. Помните о своей роли {$partnerJob}.
 
 intentions-example-antag-duo-05-owner-name = Подделать голос вдвоём
 intentions-example-antag-duo-05-owner-summary = Подделать голос вдвоём
 intentions-example-antag-duo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Собирать сведения для правдоподобной имитации чужого голоса. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-05-owner-ooc = Это необязательное парное намерение категории «антагонистические». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-antag-duo-05-owner-copy = Подсказка: {$ownerName} хочет собирать сведения для правдоподобной имитации чужого голоса. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-antag-duo-05-owner-copy = Подсказка: {$ownerName} хочет собирать сведения для правдоподобной имитации чужого голоса. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-antag-duo-05-partner-name = Поддержать ложный голос
 intentions-example-antag-duo-05-partner-summary = Поддержать ложный голос
 intentions-example-antag-duo-05-partner-description = На станции {$stationName} попробуйте разыграть сцену: Создать фон, при котором подделка сработает убедительнее. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-antag-duo-05-partner-ooc = Это необязательное второстепенное намерение категории «антагонистические». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-antag-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы создать фон, при котором подделка сработает убедительнее. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-antag-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы создать фон, при котором подделка сработает убедительнее. Помните о своей роли {$partnerJob}.
 
 intentions-example-antag-duo-06-owner-name = Двойная ложь
 intentions-example-antag-duo-06-owner-summary = Двойная ложь

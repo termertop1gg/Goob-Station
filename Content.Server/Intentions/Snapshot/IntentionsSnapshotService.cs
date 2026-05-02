@@ -47,6 +47,7 @@ public sealed class IntentionsSnapshotService : EntitySystem
     [Dependency] private readonly GameTicker _gameTicker = default!;
     [Dependency] private readonly HolidaySystem _holidays = default!;
     [Dependency] private readonly IPlayerManager _player = default!;
+    [Dependency] private readonly Robust.Shared.Prototypes.IPrototypeManager _prototype = default!;
     [Dependency] private readonly SharedJobSystem _jobs = default!;
     [Dependency] private readonly StationJobsSystem _stationJobs = default!;
     [Dependency] private readonly StationSystem _station = default!;
@@ -98,7 +99,16 @@ public sealed class IntentionsSnapshotService : EntitySystem
         if (!TryGetEligibleCrewJob(mindId, userId, owned, out var job))
             return false;
 
-        var department = GetDepartment(job);
+        // Localize job/department names so card text reads in the player's language
+        // instead of raw prototype IDs ("Captain", "Security").
+        var jobLoc = _prototype.TryIndex<Content.Shared.Roles.JobPrototype>(job, out var jobProto)
+            ? jobProto.LocalizedName
+            : job;
+        var departmentId = GetDepartment(job);
+        var departmentLoc = departmentId is { } depId
+            && _prototype.TryIndex<Content.Shared.Roles.DepartmentPrototype>(depId, out var depProto)
+            ? Loc.GetString(depProto.Name)
+            : departmentId;
         var traits = GetTraits(session);
         var (antagRoles, isGhostRoleAntag) = GetAntagRoles(mind);
         var objectiveTypes = GetObjectiveTypes(mind);
@@ -110,8 +120,8 @@ public sealed class IntentionsSnapshotService : EntitySystem
             userId,
             owned,
             mind.CharacterName ?? Name(owned),
-            job,
-            department,
+            jobLoc,
+            departmentLoc,
             profile?.Age,
             profile?.Species.Id,
             GetSex(profile),

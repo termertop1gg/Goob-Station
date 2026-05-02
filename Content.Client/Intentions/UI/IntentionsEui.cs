@@ -392,9 +392,16 @@ public sealed class IntentionsWindow : DefaultWindow
         UpdateSelection();
 
         // Cards were just rebuilt — force a fresh layout pass so RichTextLabel
-        // measurements settle this frame. Without this, subsequent re-opens of
-        // the EUI render the first card oversized and push others off-screen
-        // until the user nudges the window.
+        // measurements settle. RichTextLabel often reports a wrong desired
+        // height in the same frame the message was set, so we both invalidate
+        // immediately AND schedule a deferred re-invalidation on the next tick.
+        ForceRelayout();
+        Robust.Shared.Timing.Timer.Spawn(0, ForceRelayout);
+        Robust.Shared.Timing.Timer.Spawn(50, ForceRelayout);
+    }
+
+    private void ForceRelayout()
+    {
         _primaryList.InvalidateMeasure();
         _secondaryList.InvalidateMeasure();
         _adminList.InvalidateMeasure();

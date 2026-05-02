@@ -5,31 +5,31 @@ intentions-example-professional-solo-01-owner-name = Провести медин
 intentions-example-professional-solo-01-owner-summary = Провести мединструктаж
 intentions-example-professional-solo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Дать кому-то полезный короткий инструктаж по здоровью или первой помощи. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-professional-solo-01-owner-ooc = Это необязательное намерение категории «профессиональные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-professional-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет дать кому-то полезный короткий инструктаж по здоровью или первой помощи. Внутренняя метка: {$note}.
+intentions-example-professional-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет дать кому-то полезный короткий инструктаж по здоровью или первой помощи.
 
 intentions-example-professional-solo-02-owner-name = Собрать фирменное блюдо
 intentions-example-professional-solo-02-owner-summary = Собрать фирменное блюдо
 intentions-example-professional-solo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Приготовить и представить блюдо как предмет профессиональной гордости. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-professional-solo-02-owner-ooc = Это необязательное намерение категории «профессиональные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-professional-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет приготовить и представить блюдо как предмет профессиональной гордости. Внутренняя метка: {$note}.
+intentions-example-professional-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет приготовить и представить блюдо как предмет профессиональной гордости.
 
 intentions-example-professional-solo-03-owner-name = Сверить нужды отделов
 intentions-example-professional-solo-03-owner-summary = Сверить нужды отделов
 intentions-example-professional-solo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Собрать информацию о том, чего сейчас не хватает разным отделам. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-professional-solo-03-owner-ooc = Это необязательное намерение категории «профессиональные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-professional-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет собрать информацию о том, чего сейчас не хватает разным отделам. Внутренняя метка: {$note}.
+intentions-example-professional-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет собрать информацию о том, чего сейчас не хватает разным отделам.
 
 intentions-example-professional-solo-04-owner-name = Проверить инструменты
 intentions-example-professional-solo-04-owner-summary = Проверить инструменты
 intentions-example-professional-solo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Методично убедиться, что ваш рабочий набор в порядке. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-professional-solo-04-owner-ooc = Это необязательное намерение категории «профессиональные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-professional-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет методично убедиться, что ваш рабочий набор в порядке. Внутренняя метка: {$note}.
+intentions-example-professional-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет методично убедиться, что ваш рабочий набор в порядке.
 
 intentions-example-professional-solo-05-owner-name = Напомнить о безопасности
 intentions-example-professional-solo-05-owner-summary = Напомнить о безопасности
 intentions-example-professional-solo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Спокойно донести до коллег одну важную рабочую меру безопасности. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-professional-solo-05-owner-ooc = Это необязательное намерение категории «профессиональные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-professional-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет спокойно донести до коллег одну важную рабочую меру безопасности. Внутренняя метка: {$note}.
+intentions-example-professional-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет спокойно донести до коллег одну важную рабочую меру безопасности.
 
 intentions-example-professional-solo-06-owner-name = Проконсультировать новичка
 intentions-example-professional-solo-06-owner-summary = Проконсультировать новичка
@@ -66,61 +66,61 @@ intentions-example-professional-duo-01-owner-name = Инженер и заказ
 intentions-example-professional-duo-01-owner-summary = Инженер и заказчик
 intentions-example-professional-duo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Согласовать с партнёром реальную техническую потребность. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-01-owner-ooc = Это необязательное парное намерение категории «профессиональные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-professional-duo-01-owner-copy = Подсказка: {$ownerName} хочет согласовать с партнёром реальную техническую потребность. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-professional-duo-01-owner-copy = Подсказка: {$ownerName} хочет согласовать с партнёром реальную техническую потребность. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-professional-duo-01-partner-name = Сформулировать заказ
 intentions-example-professional-duo-01-partner-summary = Сформулировать заказ
 intentions-example-professional-duo-01-partner-description = На станции {$stationName} попробуйте разыграть сцену: Чётко объяснить, что именно вам требуется и зачем. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-01-partner-ooc = Это необязательное второстепенное намерение категории «профессиональные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-professional-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы чётко объяснить, что именно вам требуется и зачем. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-professional-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы чётко объяснить, что именно вам требуется и зачем. Помните о своей роли {$partnerJob}.
 
 intentions-example-professional-duo-02-owner-name = Врач и пациент
 intentions-example-professional-duo-02-owner-summary = Врач и пациент
 intentions-example-professional-duo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Провести внятную рабочую сцену осмотра или консультации. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-02-owner-ooc = Это необязательное парное намерение категории «профессиональные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-professional-duo-02-owner-copy = Подсказка: {$ownerName} хочет провести внятную рабочую сцену осмотра или консультации. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-professional-duo-02-owner-copy = Подсказка: {$ownerName} хочет провести внятную рабочую сцену осмотра или консультации. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-professional-duo-02-partner-name = Описать жалобу
 intentions-example-professional-duo-02-partner-summary = Описать жалобу
 intentions-example-professional-duo-02-partner-description = На станции {$stationName} попробуйте разыграть сцену: Дать врачу зацепки для профессионального разговора. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-02-partner-ooc = Это необязательное второстепенное намерение категории «профессиональные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-professional-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы дать врачу зацепки для профессионального разговора. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-professional-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы дать врачу зацепки для профессионального разговора. Помните о своей роли {$partnerJob}.
 
 intentions-example-professional-duo-03-owner-name = Снабженец и получатель
 intentions-example-professional-duo-03-owner-summary = Снабженец и получатель
 intentions-example-professional-duo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Донести поставку до того, кому она действительно нужна. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-03-owner-ooc = Это необязательное парное намерение категории «профессиональные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-professional-duo-03-owner-copy = Подсказка: {$ownerName} хочет донести поставку до того, кому она действительно нужна. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-professional-duo-03-owner-copy = Подсказка: {$ownerName} хочет донести поставку до того, кому она действительно нужна. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-professional-duo-03-partner-name = Принять поставку
 intentions-example-professional-duo-03-partner-summary = Принять поставку
 intentions-example-professional-duo-03-partner-description = На станции {$stationName} попробуйте разыграть сцену: Объяснить, зачем эта поставка была нужна отделу. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-03-partner-ooc = Это необязательное второстепенное намерение категории «профессиональные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-professional-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы объяснить, зачем эта поставка была нужна отделу. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-professional-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы объяснить, зачем эта поставка была нужна отделу. Помните о своей роли {$partnerJob}.
 
 intentions-example-professional-duo-04-owner-name = Учёный и техник
 intentions-example-professional-duo-04-owner-summary = Учёный и техник
 intentions-example-professional-duo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Проверить идею или оборудование вместе с техником. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-04-owner-ooc = Это необязательное парное намерение категории «профессиональные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-professional-duo-04-owner-copy = Подсказка: {$ownerName} хочет проверить идею или оборудование вместе с техником. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-professional-duo-04-owner-copy = Подсказка: {$ownerName} хочет проверить идею или оборудование вместе с техником. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-professional-duo-04-partner-name = Помочь с проверкой
 intentions-example-professional-duo-04-partner-summary = Помочь с проверкой
 intentions-example-professional-duo-04-partner-description = На станции {$stationName} попробуйте разыграть сцену: Поддержать рабочую проверку и задать уточняющие вопросы. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-04-partner-ooc = Это необязательное второстепенное намерение категории «профессиональные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-professional-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы поддержать рабочую проверку и задать уточняющие вопросы. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-professional-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы поддержать рабочую проверку и задать уточняющие вопросы. Помните о своей роли {$partnerJob}.
 
 intentions-example-professional-duo-05-owner-name = Ботаник и повар
 intentions-example-professional-duo-05-owner-summary = Ботаник и повар
 intentions-example-professional-duo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Договориться о полезном ингредиенте или поставке. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-05-owner-ooc = Это необязательное парное намерение категории «профессиональные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-professional-duo-05-owner-copy = Подсказка: {$ownerName} хочет договориться о полезном ингредиенте или поставке. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-professional-duo-05-owner-copy = Подсказка: {$ownerName} хочет договориться о полезном ингредиенте или поставке. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-professional-duo-05-partner-name = Заказать ингредиенты
 intentions-example-professional-duo-05-partner-summary = Заказать ингредиенты
 intentions-example-professional-duo-05-partner-description = На станции {$stationName} попробуйте разыграть сцену: Объяснить, что именно и зачем вам понадобится. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-professional-duo-05-partner-ooc = Это необязательное второстепенное намерение категории «профессиональные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-professional-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы объяснить, что именно и зачем вам понадобится. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-professional-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы объяснить, что именно и зачем вам понадобится. Помните о своей роли {$partnerJob}.
 
 intentions-example-professional-duo-06-owner-name = Сервис и пассажир
 intentions-example-professional-duo-06-owner-summary = Сервис и пассажир

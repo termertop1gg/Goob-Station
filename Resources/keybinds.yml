@@ -329,6 +329,9 @@ binds:
 - function: OpenCharacterMenu
   type: State
   key: U
+- function: OpenIntentionsMenu
+  type: State
+  key: N
 - function: OpenEmotesMenu
   type: State
   key: Y

@@ -5,31 +5,31 @@ intentions-example-criminal-solo-01-owner-name = Совершить мелкую
 intentions-example-criminal-solo-01-owner-summary = Совершить мелкую кражу
 intentions-example-criminal-solo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Тихо присвоить что-то не слишком ценное, но заметное владельцу. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-criminal-solo-01-owner-ooc = Это необязательное намерение категории «криминальные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-criminal-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет тихо присвоить что-то не слишком ценное, но заметное владельцу. Внутренняя метка: {$note}.
+intentions-example-criminal-solo-01-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет тихо присвоить что-то не слишком ценное, но заметное владельцу.
 
 intentions-example-criminal-solo-02-owner-name = Подделать документ
 intentions-example-criminal-solo-02-owner-summary = Подделать документ
 intentions-example-criminal-solo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Создать бумагу или запись, которая должна казаться настоящей. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-criminal-solo-02-owner-ooc = Это необязательное намерение категории «криминальные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-criminal-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет создать бумагу или запись, которая должна казаться настоящей. Внутренняя метка: {$note}.
+intentions-example-criminal-solo-02-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет создать бумагу или запись, которая должна казаться настоящей.
 
 intentions-example-criminal-solo-03-owner-name = Тихо вынести ценность
 intentions-example-criminal-solo-03-owner-summary = Тихо вынести ценность
 intentions-example-criminal-solo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Незаметно убрать со сцены вещь, которую кто-то ещё ищет. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-criminal-solo-03-owner-ooc = Это необязательное намерение категории «криминальные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-criminal-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет незаметно убрать со сцены вещь, которую кто-то ещё ищет. Внутренняя метка: {$note}.
+intentions-example-criminal-solo-03-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет незаметно убрать со сцены вещь, которую кто-то ещё ищет.
 
 intentions-example-criminal-solo-04-owner-name = Провести тайный обмен
 intentions-example-criminal-solo-04-owner-summary = Провести тайный обмен
 intentions-example-criminal-solo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Обменяться вещью или услугой без лишних свидетелей. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-criminal-solo-04-owner-ooc = Это необязательное намерение категории «криминальные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-criminal-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет обменяться вещью или услугой без лишних свидетелей. Внутренняя метка: {$note}.
+intentions-example-criminal-solo-04-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет обменяться вещью или услугой без лишних свидетелей.
 
 intentions-example-criminal-solo-05-owner-name = Обчистить карман без шума
 intentions-example-criminal-solo-05-owner-summary = Обчистить карман без шума
 intentions-example-criminal-solo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Вытащить выгоду из чужой невнимательности и не поднять тревогу. Для опоры используйте образ {$selfName}, профессию {$selfJob}, отдел {$selfDepartment}. Текущая отметка смены: {$stationTime}.
 intentions-example-criminal-solo-05-owner-ooc = Это необязательное намерение категории «криминальные». Поддерживайте атмосферу сцены и уважайте согласие других игроков.
-intentions-example-criminal-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет вытащить выгоду из чужой невнимательности и не поднять тревогу. Внутренняя метка: {$note}.
+intentions-example-criminal-solo-05-owner-copy = Опорная заметка для сцены на {$stationName}: {$selfName} ({$selfJob}, {$selfDepartment}) хочет вытащить выгоду из чужой невнимательности и не поднять тревогу.
 
 intentions-example-criminal-solo-06-owner-name = Спрятать улику
 intentions-example-criminal-solo-06-owner-summary = Спрятать улику
@@ -66,61 +66,61 @@ intentions-example-criminal-duo-01-owner-name = Заказчик и исполн
 intentions-example-criminal-duo-01-owner-summary = Заказчик и исполнитель
 intentions-example-criminal-duo-01-owner-description = На станции {$stationName} попробуйте разыграть сцену: Поручить партнёру рискованное грязное дело. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-01-owner-ooc = Это необязательное парное намерение категории «криминальные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-criminal-duo-01-owner-copy = Подсказка: {$ownerName} хочет поручить партнёру рискованное грязное дело. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-criminal-duo-01-owner-copy = Подсказка: {$ownerName} хочет поручить партнёру рискованное грязное дело. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-criminal-duo-01-partner-name = Выполнить грязную работу
 intentions-example-criminal-duo-01-partner-summary = Выполнить грязную работу
 intentions-example-criminal-duo-01-partner-description = На станции {$stationName} попробуйте разыграть сцену: Взять на себя ту часть плана, где нужен прямой риск. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-01-partner-ooc = Это необязательное второстепенное намерение категории «криминальные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-criminal-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы взять на себя ту часть плана, где нужен прямой риск. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-criminal-duo-01-partner-copy = Подсказка: {$ownerName} ожидает, что вы взять на себя ту часть плана, где нужен прямой риск. Помните о своей роли {$partnerJob}.
 
 intentions-example-criminal-duo-02-owner-name = Наводчик и вор
 intentions-example-criminal-duo-02-owner-summary = Наводчик и вор
 intentions-example-criminal-duo-02-owner-description = На станции {$stationName} попробуйте разыграть сцену: Дать партнёру наводку на удобную кражу. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-02-owner-ooc = Это необязательное парное намерение категории «криминальные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-criminal-duo-02-owner-copy = Подсказка: {$ownerName} хочет дать партнёру наводку на удобную кражу. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-criminal-duo-02-owner-copy = Подсказка: {$ownerName} хочет дать партнёру наводку на удобную кражу. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-criminal-duo-02-partner-name = Сделать тихую кражу
 intentions-example-criminal-duo-02-partner-summary = Сделать тихую кражу
 intentions-example-criminal-duo-02-partner-description = На станции {$stationName} попробуйте разыграть сцену: Провернуть кражу так, чтобы наводка оправдалась. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-02-partner-ooc = Это необязательное второстепенное намерение категории «криминальные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-criminal-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы провернуть кражу так, чтобы наводка оправдалась. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-criminal-duo-02-partner-copy = Подсказка: {$ownerName} ожидает, что вы провернуть кражу так, чтобы наводка оправдалась. Помните о своей роли {$partnerJob}.
 
 intentions-example-criminal-duo-03-owner-name = Ложный свидетель
 intentions-example-criminal-duo-03-owner-summary = Ложный свидетель
 intentions-example-criminal-duo-03-owner-description = На станции {$stationName} попробуйте разыграть сцену: Вынудить партнёра поддержать придуманную версию. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-03-owner-ooc = Это необязательное парное намерение категории «криминальные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-criminal-duo-03-owner-copy = Подсказка: {$ownerName} хочет вынудить партнёра поддержать придуманную версию. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-criminal-duo-03-owner-copy = Подсказка: {$ownerName} хочет вынудить партнёра поддержать придуманную версию. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-criminal-duo-03-partner-name = Закрепить ложную версию
 intentions-example-criminal-duo-03-partner-summary = Закрепить ложную версию
 intentions-example-criminal-duo-03-partner-description = На станции {$stationName} попробуйте разыграть сцену: Повторить ложную версию уверенно и без дрожи. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-03-partner-ooc = Это необязательное второстепенное намерение категории «криминальные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-criminal-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы повторить ложную версию уверенно и без дрожи. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-criminal-duo-03-partner-copy = Подсказка: {$ownerName} ожидает, что вы повторить ложную версию уверенно и без дрожи. Помните о своей роли {$partnerJob}.
 
 intentions-example-criminal-duo-04-owner-name = Провезти тайник
 intentions-example-criminal-duo-04-owner-summary = Провезти тайник
 intentions-example-criminal-duo-04-owner-description = На станции {$stationName} попробуйте разыграть сцену: Доставить спрятанный предмет в безопасную точку. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-04-owner-ooc = Это необязательное парное намерение категории «криминальные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-criminal-duo-04-owner-copy = Подсказка: {$ownerName} хочет доставить спрятанный предмет в безопасную точку. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-criminal-duo-04-owner-copy = Подсказка: {$ownerName} хочет доставить спрятанный предмет в безопасную точку. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-criminal-duo-04-partner-name = Принять скрытый тайник
 intentions-example-criminal-duo-04-partner-summary = Принять скрытый тайник
 intentions-example-criminal-duo-04-partner-description = На станции {$stationName} попробуйте разыграть сцену: Взять тайник и не выдать значимость передачи. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-04-partner-ooc = Это необязательное второстепенное намерение категории «криминальные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-criminal-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы взять тайник и не выдать значимость передачи. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-criminal-duo-04-partner-copy = Подсказка: {$ownerName} ожидает, что вы взять тайник и не выдать значимость передачи. Помните о своей роли {$partnerJob}.
 
 intentions-example-criminal-duo-05-owner-name = Отвлечь охрану
 intentions-example-criminal-duo-05-owner-summary = Отвлечь охрану
 intentions-example-criminal-duo-05-owner-description = На станции {$stationName} попробуйте разыграть сцену: Создать для СБ ложный повод смотреть не туда. Вы — {$ownerName} ({$ownerJob}, {$ownerDepartment}), а партнёр — {$partnerName} ({$partnerJob}, {$partnerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-05-owner-ooc = Это необязательное парное намерение категории «криминальные». Дайте партнёру пространство для ответа и развития сцены.
-intentions-example-criminal-duo-05-owner-copy = Подсказка: {$ownerName} хочет создать для СБ ложный повод смотреть не туда. Партнёр по сцене — {$partnerName} ({$partnerJob}). Внутренняя метка: {$note}.
+intentions-example-criminal-duo-05-owner-copy = Подсказка: {$ownerName} хочет создать для СБ ложный повод смотреть не туда. Партнёр по сцене — {$partnerName} ({$partnerJob}).
 
 intentions-example-criminal-duo-05-partner-name = Пока охрана отвлечена
 intentions-example-criminal-duo-05-partner-summary = Пока охрана отвлечена
 intentions-example-criminal-duo-05-partner-description = На станции {$stationName} попробуйте разыграть сцену: Использовать отвлечение для своего действия. Вы — {$partnerName} ({$partnerJob}, {$partnerDepartment}), а владелец сцены — {$ownerName} ({$ownerJob}, {$ownerDepartment}). Отметка смены: {$stationTime}.
 intentions-example-criminal-duo-05-partner-ooc = Это необязательное второстепенное намерение категории «криминальные». Реагируйте свободно, но поддерживайте общий замысел сцены.
-intentions-example-criminal-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы использовать отвлечение для своего действия. Помните о своей роли {$partnerJob}. Внутренняя метка: {$note}.
+intentions-example-criminal-duo-05-partner-copy = Подсказка: {$ownerName} ожидает, что вы использовать отвлечение для своего действия. Помните о своей роли {$partnerJob}.
 
 intentions-example-criminal-duo-06-owner-name = Разделить добычу
 intentions-example-criminal-duo-06-owner-summary = Разделить добычу
