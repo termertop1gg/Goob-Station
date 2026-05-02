@@ -1,8 +1,10 @@
 <Control xmlns="https://spacestation14.io"
-         HorizontalExpand="True">
+         HorizontalExpand="True"
+         MinHeight="76">
     <PanelContainer Name="CardSurface"
                     Access="Public"
-                    HorizontalExpand="True">
+                    HorizontalExpand="True"
+                    VerticalExpand="True">
         <BoxContainer Orientation="Horizontal"
                       HorizontalExpand="True">
             <PanelContainer Name="AccentBar"

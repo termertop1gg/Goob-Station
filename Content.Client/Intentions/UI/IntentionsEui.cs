@@ -42,6 +42,10 @@ public sealed class IntentionsEui : BaseEui
     public override void Opened()
     {
         _window.OpenCentered();
+        // Force a relayout pass so RichTextLabel measurements settle on first open
+        // (otherwise list cards render misaligned until the user nudges the window).
+        _window.InvalidateMeasure();
+        _window.InvalidateArrange();
     }
 
     /// <summary>
