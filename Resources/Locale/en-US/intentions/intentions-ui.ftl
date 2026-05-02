@@ -39,3 +39,5 @@ intentions-ui-missing-template-title = Missing intention template
 intentions-ui-missing-template-description = This runtime intention references content that is not available in the validated catalog.
 intentions-ui-missing-slot-status = Missing slot
 intentions-ui-unknown-target = Unknown
+
+game-hud-open-intentions-menu-button-tooltip = Open the Intentions menu
