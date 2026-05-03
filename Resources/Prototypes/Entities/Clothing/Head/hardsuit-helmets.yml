@@ -1109,6 +1109,8 @@
       - state: equipped-head-vox
       - state: equipped-head-unshaded-vox
         shader: unshaded
+      head-plasmaman:
+      - state: equipped-head
   - type: PointLight
     color: orange
   - type: PressureProtection
