@@ -26,7 +26,6 @@ public sealed class CrewMonitorScanningSystem : EntitySystem
     [Dependency] private readonly SharedSubdermalImplantSystem _implantSystem = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
 
-    //private const string CommandTrackerImplant = "CommandTrackingImplant"; // CorvaxGoob — заменено на CrewMonitorScanningComponent.Implant
     private const string CommandTrackerImplantName = "command tracking implant";
 
     public override void Initialize()
@@ -71,7 +70,6 @@ public sealed class CrewMonitorScanningSystem : EntitySystem
         }
 
         comp.ScannedEntities.Add(args.Target.Value); //Keep for don't double implant
-        //_implantSystem.AddImplant(args.Target.Value, CommandTrackerImplant); // CorvaxGoob — заменено ниже на comp.Implant
         _implantSystem.AddImplant(args.Target.Value, comp.Implant); // CorvaxGoob
 
         if (comp.ApplyDeathrattle)

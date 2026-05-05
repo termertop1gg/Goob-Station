@@ -25,13 +25,12 @@ public sealed partial class CrewMonitorScanningComponent : Component
     [DataField]
     public EntityWhitelist Whitelist = new ();
 
-    // CorvaxGoob — start
     /// <summary>
     ///     The implant prototype to inject into scanned targets.
     ///     Defaults to the command tracking implant used by the BSO crew monitor.
     /// </summary>
     [DataField]
-    public EntProtoId Implant = "CommandTrackingImplant";
+    public EntProtoId Implant = "CommandTrackingImplant"; // CorvaxGoob
 
     /// <summary>
     ///     Optional channel identifier. When set, the attached
@@ -40,6 +39,5 @@ public sealed partial class CrewMonitorScanningComponent : Component
     ///     Null keeps the legacy behaviour (filter by <c>IsCommandTracker</c>).
     /// </summary>
     [DataField]
-    public string? TrackerChannel;
-    // CorvaxGoob — end
+    public string? TrackerChannel; // CorvaxGoob
 }

@@ -92,24 +92,18 @@ public sealed class CrewMonitoringConsoleSystem : EntitySystem
 
         // Update all sensors info
         // GoobStation - Start
-        // CorvaxGoob — start
-        //var isCommandOnly = HasComp<CrewMonitorScanningComponent>(uid); // CorvaxGoob — заменено: TryComp + scanning?.TrackerChannel ниже
-        TryComp<CrewMonitorScanningComponent>(uid, out var scanning);
-        var isCommandOnly = scanning != null;
-        var channel = scanning?.TrackerChannel;
+        TryComp<CrewMonitorScanningComponent>(uid, out var scanning); // CorvaxGoob
+        var isCommandOnly = scanning != null; // CorvaxGoob
+        var channel = scanning?.TrackerChannel; // CorvaxGoob
 
         var filteredSensors = component.ConnectedSensors
-            //.Where(pair => isCommandOnly
-            //    ? pair.Value.IsCommandTracker
-            //    : !pair.Value.IsCommandTracker) // CorvaxGoob — расширено фильтрацией по TrackerChannel
             .Where(pair => channel != null
                 ? pair.Value.TrackerChannel == channel
                 : isCommandOnly
                     ? pair.Value.IsCommandTracker
-                    : !pair.Value.IsCommandTracker && pair.Value.TrackerChannel == null)
+                    : !pair.Value.IsCommandTracker && pair.Value.TrackerChannel == null) // CorvaxGoob channel-aware filter
             .Select(pair => pair.Value)
             .ToList();
-        // CorvaxGoob — end
         _uiSystem.SetUiState(uid, CrewMonitoringUIKey.Key, new CrewMonitoringState(filteredSensors));
         // GoobStation - End
         //var allSensors = component.ConnectedSensors.Values.ToList();
