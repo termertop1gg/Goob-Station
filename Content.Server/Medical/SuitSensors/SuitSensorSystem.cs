@@ -539,6 +539,7 @@ public sealed class SuitSensorSystem : EntitySystem
 
                 status.Coordinates = GetNetCoordinates(coordinates);
                 status.IsCommandTracker = sensor.CommandTracker; //Goob station
+                status.TrackerChannel = sensor.TrackerChannel; //Goob station
                 break;
         }
 
@@ -569,6 +570,8 @@ public sealed class SuitSensorSystem : EntitySystem
             payload.Add(SuitSensorConstants.NET_TOTAL_DAMAGE_THRESHOLD, status.TotalDamageThreshold);
         if (status.Coordinates != null)
             payload.Add(SuitSensorConstants.NET_COORDINATES, status.Coordinates);
+        if (status.TrackerChannel != null)
+            payload.Add(SuitSensorConstants.NET_TRACKER_CHANNEL, status.TrackerChannel); //Goob station
 
         return payload;
     }
@@ -598,6 +601,7 @@ public sealed class SuitSensorSystem : EntitySystem
         payload.TryGetValue(SuitSensorConstants.NET_TOTAL_DAMAGE, out int? totalDamage);
         payload.TryGetValue(SuitSensorConstants.NET_TOTAL_DAMAGE_THRESHOLD, out int? totalDamageThreshold);
         payload.TryGetValue(SuitSensorConstants.NET_COORDINATES, out NetCoordinates? coords);
+        payload.TryGetValue(SuitSensorConstants.NET_TRACKER_CHANNEL, out string? trackerChannel); //Goob station
 
         var status = new SuitSensorStatus(ownerUid, suitSensorUid, name, job, jobIcon, jobDepartments)
         {
@@ -606,6 +610,7 @@ public sealed class SuitSensorSystem : EntitySystem
             TotalDamageThreshold = totalDamageThreshold,
             Coordinates = coords,
             IsCommandTracker = iscommand,//Goob station
+            TrackerChannel = trackerChannel, //Goob station
         };
         return status;
     }

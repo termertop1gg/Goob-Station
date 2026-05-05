@@ -39,6 +39,14 @@ public sealed partial class SuitSensorComponent : Component
     /// </summary>
     [DataField]
     public bool CommandTracker = false;
+
+    /// <summary>
+    ///     Optional channel identifier that groups this sensor with a specific crew monitor.
+    ///     Consoles with a matching <see cref="Content.Goobstation.Shared.CrewMonitoring.CrewMonitorScanningComponent.TrackerChannel"/>
+    ///     will show only sensors on the same channel. Null means "no channel" (legacy behaviour).
+    /// </summary>
+    [DataField]
+    public string? TrackerChannel;
     // GoobStation - End
     /// <summary>
     ///     Choose a random sensor mode when item is spawned.

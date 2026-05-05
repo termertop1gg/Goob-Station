@@ -6,6 +6,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using Content.Shared.Whitelist;
+using Robust.Shared.Prototypes;
 
 namespace Content.Goobstation.Shared.CrewMonitoring;
 
@@ -23,4 +24,20 @@ public sealed partial class CrewMonitorScanningComponent : Component
 
     [DataField]
     public EntityWhitelist Whitelist = new ();
+
+    /// <summary>
+    ///     The implant prototype to inject into scanned targets.
+    ///     Defaults to the command tracking implant used by the BSO crew monitor.
+    /// </summary>
+    [DataField]
+    public EntProtoId Implant = "CommandTrackingImplant"; // CorvaxGoob
+
+    /// <summary>
+    ///     Optional channel identifier. When set, the attached
+    ///     <see cref="Content.Server.Medical.CrewMonitoring.CrewMonitoringConsoleComponent"/> will only display
+    ///     sensors whose <see cref="Content.Shared.Medical.SuitSensor.SuitSensorStatus.TrackerChannel"/> matches this value.
+    ///     Null keeps the legacy behaviour (filter by <c>IsCommandTracker</c>).
+    /// </summary>
+    [DataField]
+    public string? TrackerChannel; // CorvaxGoob
 }
