@@ -249,17 +249,24 @@
 - type: reaction
   id: Ambuzol
   reactants:
+#    Dylovene: # Commented by CorvaxGoob
+#     amount: 1
+#    Ammonia:
+#      amount: 1
+    ZombieBlood:
+      amount: 3 # CorvaxGoob-changes: 2 > 3
+# CorvaxGoob-changes-start:
     Aluite:
       amount: 1
-    ZombieBlood:
-      amount: 3
     Blood:
       amount: 3
     Calomel:
       amount: 2
+# CorvaxGoob-changes-end.
   products:
     Ambuzol: 4
 
+# CorvaxGoob-changes-start:
 - type: reaction
   id: AmbuzolAshDecomposition
   minTemp: 400
@@ -268,6 +275,7 @@
       amount: 1
   products:
     Ash: 1
+# CorvaxGoob-changes-end.
 
 - type: reaction
   id: AmbuzolPlus
